@@ -1,0 +1,363 @@
+#pragma version 11
+#pragma typetrack false
+
+// algopy.arc4.ARC4Contract.approval_program() -> uint64:
+main:
+    intcblock 0 1 32
+    bytecblock "p1_points" "p2_points" "partner1" "partner2" 0x151f7c75
+    txn ApplicationID
+    bnz main_after_if_else@2
+    // smart_contracts/fair_split/contract.py:12
+    // self.partner1 = Account()
+    bytec_2 // "partner1"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/fair_split/contract.py:13
+    // self.partner2 = Account()
+    bytec_3 // "partner2"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/fair_split/contract.py:14
+    // self.p1_points = UInt64(0)
+    bytec_0 // "p1_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:15
+    // self.p2_points = UInt64(0)
+    bytec_1 // "p2_points"
+    intc_0 // 0
+    app_global_put
+
+main_after_if_else@2:
+    // smart_contracts/fair_split/contract.py:6
+    // class FairSplit(ARC4Contract):
+    txn NumAppArgs
+    bz main___algopy_default_create@12
+    txn OnCompletion
+    !
+    assert // OnCompletion must be NoOp
+    txn ApplicationID
+    assert
+    pushbytess 0x42a5417f 0x77c7289f 0x9b028f8b // method "setup(address,address)string", method "deposit()string", method "calculate()string"
+    txna ApplicationArgs 0
+    match setup deposit calculate
+    err
+
+main___algopy_default_create@12:
+    txn OnCompletion
+    !
+    txn ApplicationID
+    !
+    &&
+    assert // OnCompletion must be NoOp && can only call when creating
+    intc_1 // 1
+    return
+
+
+// smart_contracts.fair_split.contract.FairSplit.setup[routing]() -> void:
+setup:
+    // smart_contracts/fair_split/contract.py:17
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 32
+    ==
+    assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
+    txna ApplicationArgs 2
+    dup
+    len
+    intc_2 // 32
+    ==
+    assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
+    // smart_contracts/fair_split/contract.py:20
+    // self.partner1 = p1
+    bytec_2 // "partner1"
+    uncover 2
+    app_global_put
+    // smart_contracts/fair_split/contract.py:21
+    // self.partner2 = p2
+    bytec_3 // "partner2"
+    swap
+    app_global_put
+    // smart_contracts/fair_split/contract.py:22
+    // self.p1_points = UInt64(0)
+    bytec_0 // "p1_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:23
+    // self.p2_points = UInt64(0)
+    bytec_1 // "p2_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:17
+    // @abimethod()
+    pushbytes 0x151f7c75001a506172746e65727320736574207375636365737366756c6c7921
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.fair_split.contract.FairSplit.deposit[routing]() -> void:
+deposit:
+    // smart_contracts/fair_split/contract.py:32
+    // sender = Txn.sender
+    txn Sender
+    // smart_contracts/fair_split/contract.py:33
+    // amount_micro = Txn.amount
+    txn Amount
+    // smart_contracts/fair_split/contract.py:34
+    // amount_algo = amount_micro // UInt64(1_000_000)
+    pushint 1000000 // 1000000
+    /
+    dup
+    // smart_contracts/fair_split/contract.py:36
+    // points_earned = UInt64(0)
+    intc_0 // 0
+    swap
+    // smart_contracts/fair_split/contract.py:37
+    // if amount_algo >= UInt64(10):
+    pushint 10 // 10
+    >=
+    bz deposit_else_body@3
+    // smart_contracts/fair_split/contract.py:38
+    // points_earned = UInt64(2)
+    pushint 2 // 2
+    bury 1
+
+deposit_after_if_else@9:
+    // smart_contracts/fair_split/contract.py:44
+    // if sender == self.partner1:
+    intc_0 // 0
+    bytec_2 // "partner1"
+    app_global_get_ex
+    assert // check self.partner1 exists
+    dig 3
+    ==
+    bz deposit_else_body@11
+    // smart_contracts/fair_split/contract.py:45
+    // self.p1_points = self.p1_points + points_earned
+    intc_0 // 0
+    bytec_0 // "p1_points"
+    app_global_get_ex
+    assert // check self.p1_points exists
+    dig 1
+    +
+    bytec_0 // "p1_points"
+    swap
+    app_global_put
+
+deposit_after_if_else@15:
+    // smart_contracts/fair_split/contract.py:51
+    // return String("Deposit recorded and points updated!")
+    pushbytes "Deposit recorded and points updated!"
+
+deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16:
+    // smart_contracts/fair_split/contract.py:26
+    // @abimethod()
+    dup
+    len
+    itob
+    extract 6 2
+    swap
+    concat
+    bytec 4 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+deposit_else_body@11:
+    // smart_contracts/fair_split/contract.py:46
+    // elif sender == self.partner2:
+    intc_0 // 0
+    bytec_3 // "partner2"
+    app_global_get_ex
+    assert // check self.partner2 exists
+    dig 3
+    ==
+    bz deposit_else_body@13
+    // smart_contracts/fair_split/contract.py:47
+    // self.p2_points = self.p2_points + points_earned
+    intc_0 // 0
+    bytec_1 // "p2_points"
+    app_global_get_ex
+    assert // check self.p2_points exists
+    dig 1
+    +
+    bytec_1 // "p2_points"
+    swap
+    app_global_put
+    b deposit_after_if_else@15
+
+deposit_else_body@13:
+    // smart_contracts/fair_split/contract.py:49
+    // return String("Sender not a registered partner!")
+    pushbytes "Sender not a registered partner!"
+    // smart_contracts/fair_split/contract.py:26
+    // @abimethod()
+    b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16
+
+deposit_else_body@3:
+    // smart_contracts/fair_split/contract.py:39
+    // elif amount_algo >= UInt64(5):
+    dig 1
+    pushint 5 // 5
+    >=
+    bz deposit_else_body@5
+    // smart_contracts/fair_split/contract.py:40
+    // points_earned = UInt64(1)
+    intc_1 // 1
+    bury 1
+    b deposit_after_if_else@9
+
+deposit_else_body@5:
+    // smart_contracts/fair_split/contract.py:41
+    // elif amount_algo > UInt64(0):
+    dig 1
+    bz deposit_after_if_else@9
+    // smart_contracts/fair_split/contract.py:42
+    // points_earned = UInt64(1)
+    intc_1 // 1
+    bury 1
+    b deposit_after_if_else@9
+
+
+// smart_contracts.fair_split.contract.FairSplit.calculate[routing]() -> void:
+calculate:
+    // smart_contracts/fair_split/contract.py:58
+    // total_balance = Global.current_application_address.balance
+    global CurrentApplicationAddress
+    acct_params_get AcctBalance
+    assert // account funded
+    // smart_contracts/fair_split/contract.py:61
+    // total_points = self.p1_points + self.p2_points
+    intc_0 // 0
+    bytec_0 // "p1_points"
+    app_global_get_ex
+    assert // check self.p1_points exists
+    intc_0 // 0
+    bytec_1 // "p2_points"
+    app_global_get_ex
+    assert // check self.p2_points exists
+    +
+    dup
+    // smart_contracts/fair_split/contract.py:62
+    // if total_points == UInt64(0):
+    bnz calculate_after_if_else@3
+    // smart_contracts/fair_split/contract.py:63
+    // return String("No deposits recorded yet.")
+    pushbytes "No deposits recorded yet."
+
+calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6:
+    // smart_contracts/fair_split/contract.py:53
+    // @abimethod()
+    dup
+    len
+    itob
+    extract 6 2
+    swap
+    concat
+    bytec 4 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+calculate_after_if_else@3:
+    // smart_contracts/fair_split/contract.py:65
+    // p1_share = (total_balance * self.p1_points) // total_points
+    intc_0 // 0
+    bytec_0 // "p1_points"
+    app_global_get_ex
+    assert // check self.p1_points exists
+    dig 2
+    dup
+    uncover 2
+    *
+    dig 2
+    dup
+    cover 3
+    /
+    // smart_contracts/fair_split/contract.py:66
+    // p2_share = (total_balance * self.p2_points) // total_points
+    intc_0 // 0
+    bytec_1 // "p2_points"
+    app_global_get_ex
+    assert // check self.p2_points exists
+    uncover 2
+    *
+    uncover 2
+    /
+    // smart_contracts/fair_split/contract.py:68-73
+    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // itxn.Payment(
+    //     receiver=self.partner1,
+    //     amount=p1_share,
+    //     fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    // ).submit()
+    itxn_begin
+    // smart_contracts/fair_split/contract.py:70
+    // receiver=self.partner1,
+    intc_0 // 0
+    bytec_2 // "partner1"
+    app_global_get_ex
+    assert // check self.partner1 exists
+    uncover 2
+    itxn_field Amount
+    itxn_field Receiver
+    // smart_contracts/fair_split/contract.py:68-69
+    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // itxn.Payment(
+    intc_1 // pay
+    itxn_field TypeEnum
+    // smart_contracts/fair_split/contract.py:72
+    // fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/fair_split/contract.py:68-73
+    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // itxn.Payment(
+    //     receiver=self.partner1,
+    //     amount=p1_share,
+    //     fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    // ).submit()
+    itxn_submit
+    // smart_contracts/fair_split/contract.py:75-79
+    // itxn.Payment(
+    //     receiver=self.partner2,
+    //     amount=p2_share,
+    //     fee=UInt64(0),
+    // ).submit()
+    itxn_begin
+    // smart_contracts/fair_split/contract.py:76
+    // receiver=self.partner2,
+    intc_0 // 0
+    bytec_3 // "partner2"
+    app_global_get_ex
+    assert // check self.partner2 exists
+    itxn_field Receiver
+    itxn_field Amount
+    // smart_contracts/fair_split/contract.py:75
+    // itxn.Payment(
+    intc_1 // pay
+    itxn_field TypeEnum
+    // smart_contracts/fair_split/contract.py:78
+    // fee=UInt64(0),
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/fair_split/contract.py:75-79
+    // itxn.Payment(
+    //     receiver=self.partner2,
+    //     amount=p2_share,
+    //     fee=UInt64(0),
+    // ).submit()
+    itxn_submit
+    // smart_contracts/fair_split/contract.py:81
+    // return String("Split complete.")
+    pushbytes "Split complete."
+    // smart_contracts/fair_split/contract.py:53
+    // @abimethod()
+    b calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6

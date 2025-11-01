@@ -1,0 +1,2193 @@
+{
+  "version": 3,
+  "sources": [
+    "../../fair_split/contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAWQ;AAAgB;;AAAhB;AACA;AAAgB;;AAAhB;AACA;AAAiB;AAAjB;AACA;AAAiB;AAAjB;AATR;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;;;;;;;;;;;AAWK;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAGG;AAAA;;AAAA;AACA;AAAA;AAAA;AACA;AAAiB;AAAjB;AACA;AAAiB;AAAjB;AANH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAeY;;AACM;;AACe;;;;AAAhB;AAAA;AAEE;AAAhB;AACkB;;AAAf;AAAX;;;AAC4B;;AAAhB;;AAMS;AAAA;AAAA;AAAA;AAAV;;AAAA;AAAX;;;AAC6B;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAjB;AAAA;AAAA;AAMG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAzBV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAoBkB;AAAA;AAAA;AAAA;AAAV;;AAAA;AAAb;;;AAC6B;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAjB;AAAA;AAAA;;;;AAEO;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAvBd;;;AAaQ;;AAAe;;AAAf;AAAb;;;AAC4B;AAAhB;;;;;AACZ;;AAAA;;;AAC4B;AAAhB;;;;;AAgBY;;AAAA;;AAAA;AAGD;AAAA;AAAA;AAAA;AAAiB;AAAA;AAAA;AAAA;AAAjB;AAAA;AACvB;;;AACmB;;;;;;;;;;;;;;;;;;;;;;;;;;;AAVd;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAY+B;AAAA;AAAA;AAAA;AAAhB;;AAAA;AAAA;;AAAA;AAAD;;AAAA;AAAA;;AAAA;AACiB;AAAA;AAAA;AAAA;AAAhB;;AAAA;AAAD;;AAAA;AAGX;AACa;AAAA;AAAA;AAAA;;;;;;;AADb;;;AAGQ;;;AAHR;AAMA;AACa;AAAA;AAAA;AAAA;;;;;AADb;;;AAGQ;;;AAHR;AAMO;;;;;;;;;;;;;;;;;AA5BV",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "algopy.arc4.ARC4Contract.approval_program",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 32"
+    },
+    "6": {
+      "op": "bytecblock \"p1_points\" \"p2_points\" \"partner1\" \"partner2\" 0x151f7c75"
+    },
+    "51": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "53": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": []
+    },
+    "56": {
+      "op": "bytec_2 // \"partner1\"",
+      "defined_out": [
+        "\"partner1\""
+      ],
+      "stack_out": [
+        "\"partner1\""
+      ]
+    },
+    "57": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"partner1\"",
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "\"partner1\"",
+        "tmp%0#2"
+      ]
+    },
+    "59": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "60": {
+      "op": "bytec_3 // \"partner2\"",
+      "defined_out": [
+        "\"partner2\""
+      ],
+      "stack_out": [
+        "\"partner2\""
+      ]
+    },
+    "61": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"partner2\"",
+        "tmp%1#2"
+      ],
+      "stack_out": [
+        "\"partner2\"",
+        "tmp%1#2"
+      ]
+    },
+    "63": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "64": {
+      "op": "bytec_0 // \"p1_points\"",
+      "defined_out": [
+        "\"p1_points\""
+      ],
+      "stack_out": [
+        "\"p1_points\""
+      ]
+    },
+    "65": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"p1_points\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"p1_points\"",
+        "0"
+      ]
+    },
+    "66": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "67": {
+      "op": "bytec_1 // \"p2_points\"",
+      "defined_out": [
+        "\"p2_points\""
+      ],
+      "stack_out": [
+        "\"p2_points\""
+      ]
+    },
+    "68": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"p2_points\"",
+        "0"
+      ]
+    },
+    "69": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "70": {
+      "block": "main_after_if_else@2",
+      "stack_in": [],
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "72": {
+      "op": "bz main___algopy_default_create@12",
+      "stack_out": []
+    },
+    "75": {
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "77": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "78": {
+      "error": "OnCompletion must be NoOp",
+      "op": "assert // OnCompletion must be NoOp",
+      "stack_out": []
+    },
+    "79": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "81": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "82": {
+      "op": "pushbytess 0x42a5417f 0x77c7289f 0x9b028f8b // method \"setup(address,address)string\", method \"deposit()string\", method \"calculate()string\"",
+      "defined_out": [
+        "Method(calculate()string)",
+        "Method(deposit()string)",
+        "Method(setup(address,address)string)"
+      ],
+      "stack_out": [
+        "Method(setup(address,address)string)",
+        "Method(deposit()string)",
+        "Method(calculate()string)"
+      ]
+    },
+    "99": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(calculate()string)",
+        "Method(deposit()string)",
+        "Method(setup(address,address)string)",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "Method(setup(address,address)string)",
+        "Method(deposit()string)",
+        "Method(calculate()string)",
+        "tmp%6#0"
+      ]
+    },
+    "102": {
+      "op": "match setup deposit calculate",
+      "stack_out": []
+    },
+    "110": {
+      "op": "err"
+    },
+    "111": {
+      "block": "main___algopy_default_create@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "113": {
+      "op": "!",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "114": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "116": {
+      "op": "!",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "117": {
+      "op": "&&",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "118": {
+      "error": "OnCompletion must be NoOp && can only call when creating",
+      "op": "assert // OnCompletion must be NoOp && can only call when creating",
+      "stack_out": []
+    },
+    "119": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "120": {
+      "op": "return",
+      "stack_out": []
+    },
+    "121": {
+      "subroutine": "smart_contracts.fair_split.contract.FairSplit.setup[routing]",
+      "params": {},
+      "block": "setup",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "p1#0"
+      ],
+      "stack_out": [
+        "p1#0"
+      ]
+    },
+    "124": {
+      "op": "dup",
+      "defined_out": [
+        "p1#0",
+        "p1#0 (copy)"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p1#0 (copy)"
+      ]
+    },
+    "125": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "p1#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "len%0#0"
+      ]
+    },
+    "126": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "len%0#0",
+        "p1#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "127": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "p1#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "eq%0#0"
+      ]
+    },
+    "128": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "p1#0"
+      ]
+    },
+    "129": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "p1#0",
+        "p2#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p2#0"
+      ]
+    },
+    "132": {
+      "op": "dup",
+      "defined_out": [
+        "p1#0",
+        "p2#0",
+        "p2#0 (copy)"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p2#0",
+        "p2#0 (copy)"
+      ]
+    },
+    "133": {
+      "op": "len",
+      "defined_out": [
+        "len%1#0",
+        "p1#0",
+        "p2#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p2#0",
+        "len%1#0"
+      ]
+    },
+    "134": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "p1#0",
+        "p2#0",
+        "len%1#0",
+        "32"
+      ]
+    },
+    "135": {
+      "op": "==",
+      "defined_out": [
+        "eq%1#0",
+        "p1#0",
+        "p2#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p2#0",
+        "eq%1#0"
+      ]
+    },
+    "136": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "p1#0",
+        "p2#0"
+      ]
+    },
+    "137": {
+      "op": "bytec_2 // \"partner1\"",
+      "defined_out": [
+        "\"partner1\"",
+        "p1#0",
+        "p2#0"
+      ],
+      "stack_out": [
+        "p1#0",
+        "p2#0",
+        "\"partner1\""
+      ]
+    },
+    "138": {
+      "op": "uncover 2",
+      "stack_out": [
+        "p2#0",
+        "\"partner1\"",
+        "p1#0"
+      ]
+    },
+    "140": {
+      "op": "app_global_put",
+      "stack_out": [
+        "p2#0"
+      ]
+    },
+    "141": {
+      "op": "bytec_3 // \"partner2\"",
+      "defined_out": [
+        "\"partner2\"",
+        "p2#0"
+      ],
+      "stack_out": [
+        "p2#0",
+        "\"partner2\""
+      ]
+    },
+    "142": {
+      "op": "swap",
+      "stack_out": [
+        "\"partner2\"",
+        "p2#0"
+      ]
+    },
+    "143": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "144": {
+      "op": "bytec_0 // \"p1_points\"",
+      "defined_out": [
+        "\"p1_points\""
+      ],
+      "stack_out": [
+        "\"p1_points\""
+      ]
+    },
+    "145": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"p1_points\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"p1_points\"",
+        "0"
+      ]
+    },
+    "146": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "147": {
+      "op": "bytec_1 // \"p2_points\"",
+      "defined_out": [
+        "\"p2_points\""
+      ],
+      "stack_out": [
+        "\"p2_points\""
+      ]
+    },
+    "148": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"p2_points\"",
+        "0"
+      ]
+    },
+    "149": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "150": {
+      "op": "pushbytes 0x151f7c75001a506172746e65727320736574207375636365737366756c6c7921",
+      "defined_out": [
+        "0x151f7c75001a506172746e65727320736574207375636365737366756c6c7921"
+      ],
+      "stack_out": [
+        "0x151f7c75001a506172746e65727320736574207375636365737366756c6c7921"
+      ]
+    },
+    "184": {
+      "op": "log",
+      "stack_out": []
+    },
+    "185": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "186": {
+      "op": "return",
+      "stack_out": []
+    },
+    "187": {
+      "subroutine": "smart_contracts.fair_split.contract.FairSplit.deposit[routing]",
+      "params": {},
+      "block": "deposit",
+      "stack_in": [],
+      "op": "txn Sender"
+    },
+    "189": {
+      "op": "txn Amount"
+    },
+    "191": {
+      "op": "pushint 1000000 // 1000000",
+      "defined_out": [
+        "1000000",
+        "amount_micro#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_micro#0",
+        "1000000"
+      ]
+    },
+    "195": {
+      "op": "/",
+      "defined_out": [
+        "amount_algo#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0"
+      ]
+    },
+    "196": {
+      "op": "dup",
+      "defined_out": [
+        "amount_algo#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "amount_algo#0"
+      ]
+    },
+    "197": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "198": {
+      "op": "swap",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "amount_algo#0"
+      ]
+    },
+    "199": {
+      "op": "pushint 10 // 10",
+      "defined_out": [
+        "10",
+        "amount_algo#0",
+        "points_earned#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "amount_algo#0",
+        "10"
+      ]
+    },
+    "201": {
+      "op": ">=",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0",
+        "sender#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%3#0"
+      ]
+    },
+    "202": {
+      "op": "bz deposit_else_body@3",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "205": {
+      "op": "pushint 2 // 2",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "points_earned#0"
+      ]
+    },
+    "207": {
+      "op": "bury 1",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "209": {
+      "block": "deposit_after_if_else@9",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0"
+      ]
+    },
+    "210": {
+      "op": "bytec_2 // \"partner1\"",
+      "defined_out": [
+        "\"partner1\"",
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0",
+        "\"partner1\""
+      ]
+    },
+    "211": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "212": {
+      "error": "check self.partner1 exists",
+      "op": "assert // check self.partner1 exists",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "213": {
+      "op": "dig 3",
+      "defined_out": [
+        "maybe_value%0#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%0#0",
+        "sender#0"
+      ]
+    },
+    "215": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%6#0"
+      ]
+    },
+    "216": {
+      "op": "bz deposit_else_body@11",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "219": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0"
+      ]
+    },
+    "220": {
+      "op": "bytec_0 // \"p1_points\"",
+      "defined_out": [
+        "\"p1_points\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0",
+        "\"p1_points\""
+      ]
+    },
+    "221": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "222": {
+      "error": "check self.p1_points exists",
+      "op": "assert // check self.p1_points exists",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "223": {
+      "op": "dig 1",
+      "defined_out": [
+        "maybe_value%1#0",
+        "points_earned#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%1#0",
+        "points_earned#0"
+      ]
+    },
+    "225": {
+      "op": "+",
+      "defined_out": [
+        "points_earned#0",
+        "sender#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%7#0"
+      ]
+    },
+    "226": {
+      "op": "bytec_0 // \"p1_points\"",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%7#0",
+        "\"p1_points\""
+      ]
+    },
+    "227": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "\"p1_points\"",
+        "tmp%7#0"
+      ]
+    },
+    "228": {
+      "op": "app_global_put",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "229": {
+      "block": "deposit_after_if_else@15",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "pushbytes \"Deposit recorded and points updated!\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0"
+      ]
+    },
+    "267": {
+      "block": "deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "268": {
+      "op": "len",
+      "defined_out": [
+        "aggregate%length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0",
+        "aggregate%length%0#0"
+      ]
+    },
+    "269": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%as_bytes%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0",
+        "aggregate%as_bytes%0#0"
+      ]
+    },
+    "270": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0",
+        "aggregate%length_uint16%0#0"
+      ]
+    },
+    "273": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "274": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "275": {
+      "op": "bytec 4 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "aggregate%encoded_value%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "277": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "278": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%2#0"
+      ]
+    },
+    "279": {
+      "op": "log",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "280": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "1"
+      ]
+    },
+    "281": {
+      "op": "return",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "282": {
+      "block": "deposit_else_body@11",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0"
+      ]
+    },
+    "283": {
+      "op": "bytec_3 // \"partner2\"",
+      "defined_out": [
+        "\"partner2\"",
+        "0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0",
+        "\"partner2\""
+      ]
+    },
+    "284": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "285": {
+      "error": "check self.partner2 exists",
+      "op": "assert // check self.partner2 exists",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "286": {
+      "op": "dig 3",
+      "defined_out": [
+        "maybe_value%2#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%2#0",
+        "sender#0"
+      ]
+    },
+    "288": {
+      "op": "==",
+      "defined_out": [
+        "sender#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%8#0"
+      ]
+    },
+    "289": {
+      "op": "bz deposit_else_body@13",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "292": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0"
+      ]
+    },
+    "293": {
+      "op": "bytec_1 // \"p2_points\"",
+      "defined_out": [
+        "\"p2_points\"",
+        "0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "0",
+        "\"p2_points\""
+      ]
+    },
+    "294": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "295": {
+      "error": "check self.p2_points exists",
+      "op": "assert // check self.p2_points exists",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "296": {
+      "op": "dig 1",
+      "defined_out": [
+        "maybe_value%3#0",
+        "points_earned#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "maybe_value%3#0",
+        "points_earned#0"
+      ]
+    },
+    "298": {
+      "op": "+",
+      "defined_out": [
+        "points_earned#0",
+        "sender#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%9#0"
+      ]
+    },
+    "299": {
+      "op": "bytec_1 // \"p2_points\"",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%9#0",
+        "\"p2_points\""
+      ]
+    },
+    "300": {
+      "op": "swap",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "\"p2_points\"",
+        "tmp%9#0"
+      ]
+    },
+    "301": {
+      "op": "app_global_put",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "302": {
+      "op": "b deposit_after_if_else@15"
+    },
+    "305": {
+      "block": "deposit_else_body@13",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "pushbytes \"Sender not a registered partner!\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%0#0"
+      ]
+    },
+    "339": {
+      "op": "b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16"
+    },
+    "342": {
+      "block": "deposit_else_body@3",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "amount_algo#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "amount_algo#0"
+      ]
+    },
+    "344": {
+      "op": "pushint 5 // 5",
+      "defined_out": [
+        "5",
+        "amount_algo#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "amount_algo#0",
+        "5"
+      ]
+    },
+    "346": {
+      "op": ">=",
+      "defined_out": [
+        "amount_algo#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "tmp%4#0"
+      ]
+    },
+    "347": {
+      "op": "bz deposit_else_body@5",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "350": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "points_earned#0"
+      ]
+    },
+    "351": {
+      "op": "bury 1",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "353": {
+      "op": "b deposit_after_if_else@9"
+    },
+    "356": {
+      "block": "deposit_else_body@5",
+      "stack_in": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "amount_algo#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "amount_algo#0"
+      ]
+    },
+    "358": {
+      "op": "bz deposit_after_if_else@9",
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "361": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0",
+        "points_earned#0"
+      ]
+    },
+    "362": {
+      "op": "bury 1",
+      "defined_out": [
+        "amount_algo#0",
+        "points_earned#0"
+      ],
+      "stack_out": [
+        "sender#0",
+        "amount_algo#0",
+        "points_earned#0"
+      ]
+    },
+    "364": {
+      "op": "b deposit_after_if_else@9"
+    },
+    "367": {
+      "subroutine": "smart_contracts.fair_split.contract.FairSplit.calculate[routing]",
+      "params": {},
+      "block": "calculate",
+      "stack_in": [],
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "369": {
+      "op": "acct_params_get AcctBalance",
+      "defined_out": [
+        "check%0#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "check%0#0"
+      ]
+    },
+    "371": {
+      "error": "account funded",
+      "op": "assert // account funded",
+      "stack_out": [
+        "total_balance#0"
+      ]
+    },
+    "372": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "0"
+      ]
+    },
+    "373": {
+      "op": "bytec_0 // \"p1_points\"",
+      "defined_out": [
+        "\"p1_points\"",
+        "0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "0",
+        "\"p1_points\""
+      ]
+    },
+    "374": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "375": {
+      "error": "check self.p1_points exists",
+      "op": "assert // check self.p1_points exists",
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "376": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0",
+        "0"
+      ]
+    },
+    "377": {
+      "op": "bytec_1 // \"p2_points\"",
+      "defined_out": [
+        "\"p2_points\"",
+        "0",
+        "maybe_value%0#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0",
+        "0",
+        "\"p2_points\""
+      ]
+    },
+    "378": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%0#0",
+        "maybe_value%1#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "379": {
+      "error": "check self.p2_points exists",
+      "op": "assert // check self.p2_points exists",
+      "stack_out": [
+        "total_balance#0",
+        "maybe_value%0#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "380": {
+      "op": "+",
+      "defined_out": [
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "381": {
+      "op": "dup",
+      "defined_out": [
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0"
+      ]
+    },
+    "382": {
+      "op": "bnz calculate_after_if_else@3",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "385": {
+      "op": "pushbytes \"No deposits recorded yet.\"",
+      "defined_out": [
+        "tmp%0#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0"
+      ]
+    },
+    "412": {
+      "block": "calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6",
+      "stack_in": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "413": {
+      "op": "len",
+      "defined_out": [
+        "aggregate%length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0",
+        "aggregate%length%0#0"
+      ]
+    },
+    "414": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%as_bytes%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0",
+        "aggregate%as_bytes%0#0"
+      ]
+    },
+    "415": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0",
+        "aggregate%length_uint16%0#0"
+      ]
+    },
+    "418": {
+      "op": "swap",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "419": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "420": {
+      "op": "bytec 4 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "aggregate%encoded_value%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "422": {
+      "op": "swap",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "423": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%2#0"
+      ]
+    },
+    "424": {
+      "op": "log",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "425": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "1"
+      ]
+    },
+    "426": {
+      "op": "return",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "427": {
+      "block": "calculate_after_if_else@3",
+      "stack_in": [
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "0"
+      ]
+    },
+    "428": {
+      "op": "bytec_0 // \"p1_points\"",
+      "defined_out": [
+        "\"p1_points\"",
+        "0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "0",
+        "\"p1_points\""
+      ]
+    },
+    "429": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "430": {
+      "error": "check self.p1_points exists",
+      "op": "assert // check self.p1_points exists",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "431": {
+      "op": "dig 2",
+      "defined_out": [
+        "maybe_value%2#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "maybe_value%2#0",
+        "total_balance#0"
+      ]
+    },
+    "433": {
+      "op": "dup"
+    },
+    "434": {
+      "op": "uncover 2",
+      "defined_out": [
+        "maybe_value%2#0",
+        "total_balance#0",
+        "total_balance#0 (copy)"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_balance#0",
+        "total_balance#0 (copy)",
+        "maybe_value%2#0"
+      ]
+    },
+    "436": {
+      "op": "*",
+      "defined_out": [
+        "tmp%3#0",
+        "total_balance#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_balance#0",
+        "tmp%3#0"
+      ]
+    },
+    "437": {
+      "op": "dig 2",
+      "defined_out": [
+        "tmp%3#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_balance#0",
+        "tmp%3#0",
+        "total_points#0"
+      ]
+    },
+    "439": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%3#0",
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0 (copy)"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_balance#0",
+        "tmp%3#0",
+        "total_points#0 (copy)",
+        "total_points#0 (copy)"
+      ]
+    },
+    "440": {
+      "op": "cover 3",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "tmp%3#0",
+        "total_points#0 (copy)"
+      ]
+    },
+    "442": {
+      "op": "/",
+      "defined_out": [
+        "p1_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "p1_share#0"
+      ]
+    },
+    "443": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "p1_share#0",
+        "0"
+      ]
+    },
+    "444": {
+      "op": "bytec_1 // \"p2_points\"",
+      "defined_out": [
+        "\"p2_points\"",
+        "0",
+        "p1_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "p1_share#0",
+        "0",
+        "\"p2_points\""
+      ]
+    },
+    "445": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "p1_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "p1_share#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "446": {
+      "error": "check self.p2_points exists",
+      "op": "assert // check self.p2_points exists",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "total_balance#0",
+        "p1_share#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "447": {
+      "op": "uncover 2",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "p1_share#0",
+        "maybe_value%3#0",
+        "total_balance#0"
+      ]
+    },
+    "449": {
+      "op": "*",
+      "defined_out": [
+        "p1_share#0",
+        "tmp%5#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "total_points#0",
+        "p1_share#0",
+        "tmp%5#0"
+      ]
+    },
+    "450": {
+      "op": "uncover 2",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "tmp%5#0",
+        "total_points#0"
+      ]
+    },
+    "452": {
+      "op": "/",
+      "defined_out": [
+        "p1_share#0",
+        "p2_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "p2_share#0"
+      ]
+    },
+    "453": {
+      "op": "itxn_begin"
+    },
+    "454": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "p2_share#0",
+        "0"
+      ]
+    },
+    "455": {
+      "op": "bytec_2 // \"partner1\"",
+      "defined_out": [
+        "\"partner1\"",
+        "0",
+        "p1_share#0",
+        "p2_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "p2_share#0",
+        "0",
+        "\"partner1\""
+      ]
+    },
+    "456": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%4#0",
+        "maybe_value%4#0",
+        "p1_share#0",
+        "p2_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "p2_share#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "457": {
+      "error": "check self.partner1 exists",
+      "op": "assert // check self.partner1 exists",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p1_share#0",
+        "p2_share#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "458": {
+      "op": "uncover 2",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "maybe_value%4#0",
+        "p1_share#0"
+      ]
+    },
+    "460": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "462": {
+      "op": "itxn_field Receiver",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0"
+      ]
+    },
+    "464": {
+      "op": "intc_1 // pay",
+      "defined_out": [
+        "p2_share#0",
+        "pay",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "pay"
+      ]
+    },
+    "465": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0"
+      ]
+    },
+    "467": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "0"
+      ]
+    },
+    "468": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0"
+      ]
+    },
+    "470": {
+      "op": "itxn_submit"
+    },
+    "471": {
+      "op": "itxn_begin"
+    },
+    "472": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "0"
+      ]
+    },
+    "473": {
+      "op": "bytec_3 // \"partner2\"",
+      "defined_out": [
+        "\"partner2\"",
+        "0",
+        "p2_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "0",
+        "\"partner2\""
+      ]
+    },
+    "474": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%5#0",
+        "maybe_value%5#0",
+        "p2_share#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "maybe_value%5#0",
+        "maybe_exists%5#0"
+      ]
+    },
+    "475": {
+      "error": "check self.partner2 exists",
+      "op": "assert // check self.partner2 exists",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "p2_share#0",
+        "maybe_value%5#0"
+      ]
+    },
+    "476": {
+      "op": "itxn_field Receiver"
+    },
+    "478": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "480": {
+      "op": "intc_1 // pay",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "pay"
+      ]
+    },
+    "481": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "483": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "0"
+      ]
+    },
+    "484": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0"
+      ]
+    },
+    "486": {
+      "op": "itxn_submit"
+    },
+    "487": {
+      "op": "pushbytes \"Split complete.\"",
+      "defined_out": [
+        "tmp%0#0",
+        "total_balance#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "total_balance#0",
+        "total_points#0",
+        "tmp%0#0"
+      ]
+    },
+    "504": {
+      "op": "b calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6"
+    }
+  }
+}
