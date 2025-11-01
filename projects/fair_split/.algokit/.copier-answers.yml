@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.8.0
+_src_path: gh:algorandfoundation/algokit-python-template
+author_email: 130301294+AndaruHP@users.noreply.github.com
+author_name: Andaru Hymawan
+contract_name: fair_split
+deployment_language: python
+preset_name: starter
+project_name: fair_split
+
