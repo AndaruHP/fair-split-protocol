@@ -3,7 +3,7 @@
   "sources": [
     "../../fair_split/contract.py"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,12 +11,12 @@
       "params": {},
       "block": "main",
       "stack_in": [],
-      "op": "intcblock 0 1 32"
+      "op": "intcblock 0 1 100000"
     },
-    "6": {
-      "op": "bytecblock \"contract_status\" \"spouse_1\" \"spouse_2\" \"spouse_1_points\" \"spouse_2_points\" \"total_pool\" \"spouse_1_approved\" 0x00 \"spouse_2_approved\" \"platform_address\" 0x000e70656e64696e675f696e76697465 0x0006616374697665 0x151f7c75 \"platform_fee_basis_points\" 0x001270656e64696e675f7769746864726177616c 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e"
+    "8": {
+      "op": "bytecblock \"contract_status\" \"spouse_1\" \"spouse_2\" 0x00 \"spouse_1_points\" \"spouse_2_points\" \"total_pool\" \"spouse_1_approved\" \"spouse_2_approved\" 0x0006616374697665 \"platform_address\" 0x000e70656e64696e675f696e76697465 0x151f7c75 0x001270656e64696e675f7769746864726177616c \"platform_fee_basis_points\" 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e"
     },
-    "254": {
+    "256": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%0#0"
@@ -25,11 +25,11 @@
         "tmp%0#0"
       ]
     },
-    "256": {
+    "258": {
       "op": "bnz main_after_if_else@2",
       "stack_out": []
     },
-    "259": {
+    "261": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\""
@@ -38,7 +38,7 @@
         "\"spouse_1\""
       ]
     },
-    "260": {
+    "262": {
       "op": "global ZeroAddress",
       "defined_out": [
         "\"spouse_1\"",
@@ -49,11 +49,11 @@
         "tmp%0#2"
       ]
     },
-    "262": {
+    "264": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "263": {
+    "265": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\""
@@ -62,7 +62,7 @@
         "\"spouse_2\""
       ]
     },
-    "264": {
+    "266": {
       "op": "global ZeroAddress",
       "defined_out": [
         "\"spouse_2\"",
@@ -73,12 +73,12 @@
         "tmp%1#2"
       ]
     },
-    "266": {
+    "268": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "267": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "269": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
         "\"spouse_1_points\""
       ],
@@ -86,7 +86,7 @@
         "\"spouse_1_points\""
       ]
     },
-    "268": {
+    "271": {
       "op": "intc_0 // 0",
       "defined_out": [
         "\"spouse_1_points\"",
@@ -97,12 +97,12 @@
         "0"
       ]
     },
-    "269": {
+    "272": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "270": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "273": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
         "\"spouse_2_points\""
       ],
@@ -110,19 +110,19 @@
         "\"spouse_2_points\""
       ]
     },
-    "272": {
+    "275": {
       "op": "intc_0 // 0",
       "stack_out": [
         "\"spouse_2_points\"",
         "0"
       ]
     },
-    "273": {
+    "276": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "274": {
-      "op": "bytec 5 // \"total_pool\"",
+    "277": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
         "\"total_pool\""
       ],
@@ -130,18 +130,18 @@
         "\"total_pool\""
       ]
     },
-    "276": {
+    "279": {
       "op": "intc_0 // 0",
       "stack_out": [
         "\"total_pool\"",
         "0"
       ]
     },
-    "277": {
+    "280": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "278": {
+    "281": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\""
@@ -150,7 +150,7 @@
         "\"contract_status\""
       ]
     },
-    "279": {
+    "282": {
       "op": "pushbytes 0x0000",
       "defined_out": [
         "\"contract_status\"",
@@ -161,35 +161,35 @@
         "0x0000"
       ]
     },
-    "283": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "284": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
-      "defined_out": [
-        "\"spouse_1_approved\""
-      ],
-      "stack_out": [
-        "\"spouse_1_approved\""
-      ]
-    },
     "286": {
-      "op": "bytec 7 // 0x00",
-      "defined_out": [
-        "\"spouse_1_approved\"",
-        "0x00"
-      ],
-      "stack_out": [
-        "\"spouse_1_approved\"",
-        "0x00"
-      ]
-    },
-    "288": {
       "op": "app_global_put",
       "stack_out": []
+    },
+    "287": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
+      "defined_out": [
+        "\"spouse_1_approved\""
+      ],
+      "stack_out": [
+        "\"spouse_1_approved\""
+      ]
     },
     "289": {
+      "op": "bytec_3 // 0x00",
+      "defined_out": [
+        "\"spouse_1_approved\"",
+        "0x00"
+      ],
+      "stack_out": [
+        "\"spouse_1_approved\"",
+        "0x00"
+      ]
+    },
+    "290": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "291": {
       "op": "bytec 8 // \"spouse_2_approved\"",
       "defined_out": [
         "\"spouse_2_approved\""
@@ -198,19 +198,19 @@
         "\"spouse_2_approved\""
       ]
     },
-    "291": {
-      "op": "bytec 7 // 0x00",
+    "293": {
+      "op": "bytec_3 // 0x00",
       "stack_out": [
         "\"spouse_2_approved\"",
         "0x00"
       ]
     },
-    "293": {
+    "294": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "294": {
-      "op": "bytec 9 // \"platform_address\"",
+    "295": {
+      "op": "bytec 10 // \"platform_address\"",
       "defined_out": [
         "\"platform_address\""
       ],
@@ -218,7 +218,7 @@
         "\"platform_address\""
       ]
     },
-    "296": {
+    "297": {
       "op": "global ZeroAddress",
       "defined_out": [
         "\"platform_address\"",
@@ -229,12 +229,12 @@
         "tmp%5#1"
       ]
     },
-    "298": {
+    "299": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "299": {
-      "op": "bytec 13 // \"platform_fee_basis_points\"",
+    "300": {
+      "op": "bytec 14 // \"platform_fee_basis_points\"",
       "defined_out": [
         "\"platform_fee_basis_points\""
       ],
@@ -242,7 +242,7 @@
         "\"platform_fee_basis_points\""
       ]
     },
-    "301": {
+    "302": {
       "op": "pushint 650 // 650",
       "defined_out": [
         "\"platform_fee_basis_points\"",
@@ -253,11 +253,11 @@
         "650"
       ]
     },
-    "304": {
+    "305": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "305": {
+    "306": {
       "block": "main_after_if_else@2",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -268,7 +268,7 @@
         "tmp%0#1"
       ]
     },
-    "307": {
+    "308": {
       "op": "!",
       "defined_out": [
         "tmp%1#1"
@@ -277,12 +277,12 @@
         "tmp%1#1"
       ]
     },
-    "308": {
+    "309": {
       "error": "OnCompletion must be NoOp",
       "op": "assert // OnCompletion must be NoOp",
       "stack_out": []
     },
-    "309": {
+    "310": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%2#0"
@@ -291,18 +291,19 @@
         "tmp%2#0"
       ]
     },
-    "311": {
-      "op": "bz main_create_NoOp@12",
+    "312": {
+      "op": "bz main_create_NoOp@13",
       "stack_out": []
     },
-    "314": {
-      "op": "pushbytess 0xedb2fc94 0x2368d4c2 0xaf720408 0x3424b0d7 0x4ac67e05 0x7b628de3 // method \"invite_spouse(address)string\", method \"accept_invite()string\", method \"deposit(pay)string\", method \"request_withdrawal()string\", method \"approve_withdrawal()string\", method \"get_contract_info()(string,address,address,uint64,uint64,uint64)\"",
+    "315": {
+      "op": "pushbytess 0xedb2fc94 0x2368d4c2 0xaf720408 0x3424b0d7 0x4ac67e05 0x60e51f58 0x7b628de3 // method \"invite_spouse(address)string\", method \"accept_invite()string\", method \"deposit(pay)string\", method \"request_withdrawal()string\", method \"approve_withdrawal()string\", method \"reject_withdrawal()string\", method \"get_contract_info()(string,address,address,uint64,uint64,uint64)\"",
       "defined_out": [
         "Method(accept_invite()string)",
         "Method(approve_withdrawal()string)",
         "Method(deposit(pay)string)",
         "Method(get_contract_info()(string,address,address,uint64,uint64,uint64))",
         "Method(invite_spouse(address)string)",
+        "Method(reject_withdrawal()string)",
         "Method(request_withdrawal()string)"
       ],
       "stack_out": [
@@ -311,10 +312,11 @@
         "Method(deposit(pay)string)",
         "Method(request_withdrawal()string)",
         "Method(approve_withdrawal()string)",
+        "Method(reject_withdrawal()string)",
         "Method(get_contract_info()(string,address,address,uint64,uint64,uint64))"
       ]
     },
-    "346": {
+    "352": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(accept_invite()string)",
@@ -322,6 +324,7 @@
         "Method(deposit(pay)string)",
         "Method(get_contract_info()(string,address,address,uint64,uint64,uint64))",
         "Method(invite_spouse(address)string)",
+        "Method(reject_withdrawal()string)",
         "Method(request_withdrawal()string)",
         "tmp%4#0"
       ],
@@ -331,120 +334,57 @@
         "Method(deposit(pay)string)",
         "Method(request_withdrawal()string)",
         "Method(approve_withdrawal()string)",
+        "Method(reject_withdrawal()string)",
         "Method(get_contract_info()(string,address,address,uint64,uint64,uint64))",
         "tmp%4#0"
       ]
     },
-    "349": {
-      "op": "match invite_spouse accept_invite deposit request_withdrawal approve_withdrawal get_contract_info",
+    "355": {
+      "op": "match invite_spouse accept_invite deposit request_withdrawal approve_withdrawal reject_withdrawal get_contract_info",
       "stack_out": []
     },
-    "363": {
+    "371": {
       "op": "err"
     },
-    "364": {
-      "block": "main_create_NoOp@12",
+    "372": {
+      "block": "main_create_NoOp@13",
       "stack_in": [],
-      "op": "pushbytes 0x17f78894 // method \"create_contract(address)string\"",
+      "op": "pushbytes 0xda6ac408 // method \"create_contract()string\"",
       "defined_out": [
-        "Method(create_contract(address)string)"
+        "Method(create_contract()string)"
       ],
       "stack_out": [
-        "Method(create_contract(address)string)"
+        "Method(create_contract()string)"
       ]
     },
-    "370": {
+    "378": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
-        "Method(create_contract(address)string)",
+        "Method(create_contract()string)",
         "tmp%5#0"
       ],
       "stack_out": [
-        "Method(create_contract(address)string)",
+        "Method(create_contract()string)",
         "tmp%5#0"
       ]
     },
-    "373": {
+    "381": {
       "op": "match create_contract",
       "stack_out": []
     },
-    "377": {
+    "385": {
       "op": "err"
     },
-    "378": {
+    "386": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.create_contract[routing]",
       "params": {},
       "block": "create_contract",
       "stack_in": [],
-      "op": "txna ApplicationArgs 1",
-      "defined_out": [
-        "platform_addr#0"
-      ],
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
-    "381": {
-      "op": "dup",
-      "defined_out": [
-        "platform_addr#0",
-        "platform_addr#0 (copy)"
-      ],
-      "stack_out": [
-        "platform_addr#0",
-        "platform_addr#0 (copy)"
-      ]
-    },
-    "382": {
-      "op": "len",
-      "defined_out": [
-        "len%0#0",
-        "platform_addr#0"
-      ],
-      "stack_out": [
-        "platform_addr#0",
-        "len%0#0"
-      ]
-    },
-    "383": {
-      "op": "intc_2 // 32",
-      "defined_out": [
-        "32",
-        "len%0#0",
-        "platform_addr#0"
-      ],
-      "stack_out": [
-        "platform_addr#0",
-        "len%0#0",
-        "32"
-      ]
-    },
-    "384": {
-      "op": "==",
-      "defined_out": [
-        "eq%0#0",
-        "platform_addr#0"
-      ],
-      "stack_out": [
-        "platform_addr#0",
-        "eq%0#0"
-      ]
-    },
-    "385": {
-      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
-      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
-    "386": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
-        "\"spouse_1\"",
-        "platform_addr#0"
+        "\"spouse_1\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1\""
       ]
     },
@@ -452,29 +392,23 @@
       "op": "txn Sender",
       "defined_out": [
         "\"spouse_1\"",
-        "platform_addr#0",
         "tmp%0#1"
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1\"",
         "tmp%0#1"
       ]
     },
     "389": {
       "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
+      "stack_out": []
     },
     "390": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
-        "\"spouse_2\"",
-        "platform_addr#0"
+        "\"spouse_2\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2\""
       ]
     },
@@ -482,209 +416,174 @@
       "op": "global ZeroAddress",
       "defined_out": [
         "\"spouse_2\"",
-        "platform_addr#0",
         "tmp%1#1"
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2\"",
         "tmp%1#1"
       ]
     },
     "393": {
       "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
+      "stack_out": []
     },
     "394": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
-        "\"spouse_1_points\"",
-        "platform_addr#0"
+        "\"spouse_1_points\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1_points\""
       ]
     },
-    "395": {
+    "396": {
       "op": "intc_0 // 0",
       "defined_out": [
         "\"spouse_1_points\"",
-        "0",
-        "platform_addr#0"
+        "0"
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1_points\"",
         "0"
-      ]
-    },
-    "396": {
-      "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
       ]
     },
     "397": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "398": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
-        "\"spouse_2_points\"",
-        "platform_addr#0"
+        "\"spouse_2_points\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2_points\""
       ]
     },
-    "399": {
+    "400": {
       "op": "intc_0 // 0",
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2_points\"",
         "0"
       ]
     },
-    "400": {
-      "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
     "401": {
-      "op": "bytec 5 // \"total_pool\"",
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "402": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
-        "\"total_pool\"",
-        "platform_addr#0"
+        "\"total_pool\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"total_pool\""
       ]
     },
-    "403": {
+    "404": {
       "op": "intc_0 // 0",
       "stack_out": [
-        "platform_addr#0",
         "\"total_pool\"",
         "0"
       ]
     },
-    "404": {
-      "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
     "405": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "406": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
-        "\"contract_status\"",
-        "platform_addr#0"
+        "\"contract_status\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"contract_status\""
       ]
     },
-    "406": {
-      "op": "bytec 10 // 0x000e70656e64696e675f696e76697465",
+    "407": {
+      "op": "bytec 11 // 0x000e70656e64696e675f696e76697465",
       "defined_out": [
         "\"contract_status\"",
-        "0x000e70656e64696e675f696e76697465",
-        "platform_addr#0"
+        "0x000e70656e64696e675f696e76697465"
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"contract_status\"",
         "0x000e70656e64696e675f696e76697465"
       ]
     },
-    "408": {
-      "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
     "409": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "410": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
       "defined_out": [
-        "\"spouse_1_approved\"",
-        "platform_addr#0"
+        "\"spouse_1_approved\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1_approved\""
       ]
     },
-    "411": {
-      "op": "bytec 7 // 0x00",
+    "412": {
+      "op": "bytec_3 // 0x00",
       "defined_out": [
         "\"spouse_1_approved\"",
-        "0x00",
-        "platform_addr#0"
+        "0x00"
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_1_approved\"",
         "0x00"
       ]
     },
     "413": {
       "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
+      "stack_out": []
     },
     "414": {
       "op": "bytec 8 // \"spouse_2_approved\"",
       "defined_out": [
-        "\"spouse_2_approved\"",
-        "platform_addr#0"
+        "\"spouse_2_approved\""
       ],
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2_approved\""
       ]
     },
     "416": {
-      "op": "bytec 7 // 0x00",
+      "op": "bytec_3 // 0x00",
       "stack_out": [
-        "platform_addr#0",
         "\"spouse_2_approved\"",
         "0x00"
       ]
     },
-    "418": {
-      "op": "app_global_put",
-      "stack_out": [
-        "platform_addr#0"
-      ]
-    },
-    "419": {
-      "op": "bytec 9 // \"platform_address\"",
-      "defined_out": [
-        "\"platform_address\"",
-        "platform_addr#0"
-      ],
-      "stack_out": [
-        "platform_addr#0",
-        "\"platform_address\""
-      ]
-    },
-    "421": {
-      "op": "swap",
-      "stack_out": [
-        "\"platform_address\"",
-        "platform_addr#0"
-      ]
-    },
-    "422": {
+    "417": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "423": {
+    "418": {
+      "op": "bytec 10 // \"platform_address\"",
+      "defined_out": [
+        "\"platform_address\""
+      ],
+      "stack_out": [
+        "\"platform_address\""
+      ]
+    },
+    "420": {
+      "op": "pushbytes base32(KO64H7YGWF6EEGP3EALQZTFR66UNYSRJLZOYGWGP5GTV2E4PBQDQ) // addr KO64H7YGWF6EEGP3EALQZTFR66UNYSRJLZOYGWGP5GTV2E4PBQDWFZNMIY",
+      "defined_out": [
+        "\"platform_address\"",
+        "Address(KO64H7YGWF6EEGP3EALQZTFR66UNYSRJLZOYGWGP5GTV2E4PBQDWFZNMIY)"
+      ],
+      "stack_out": [
+        "\"platform_address\"",
+        "Address(KO64H7YGWF6EEGP3EALQZTFR66UNYSRJLZOYGWGP5GTV2E4PBQDWFZNMIY)"
+      ]
+    },
+    "454": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "455": {
       "op": "pushbytes 0x151f7c75002d436f6e747261637420637265617465642e205761697420666f722073706f75736520696e7669746174696f6e2e",
       "defined_out": [
         "0x151f7c75002d436f6e747261637420637265617465642e205761697420666f722073706f75736520696e7669746174696f6e2e"
@@ -693,11 +592,11 @@
         "0x151f7c75002d436f6e747261637420637265617465642e205761697420666f722073706f75736520696e7669746174696f6e2e"
       ]
     },
-    "476": {
+    "508": {
       "op": "log",
       "stack_out": []
     },
-    "477": {
+    "509": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -706,11 +605,11 @@
         "1"
       ]
     },
-    "478": {
+    "510": {
       "op": "return",
       "stack_out": []
     },
-    "479": {
+    "511": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.invite_spouse[routing]",
       "params": {},
       "block": "invite_spouse",
@@ -723,7 +622,7 @@
         "spouse_address#0"
       ]
     },
-    "482": {
+    "514": {
       "op": "dup",
       "defined_out": [
         "spouse_address#0",
@@ -734,7 +633,7 @@
         "spouse_address#0 (copy)"
       ]
     },
-    "483": {
+    "515": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -745,8 +644,8 @@
         "len%0#0"
       ]
     },
-    "484": {
-      "op": "intc_2 // 32",
+    "516": {
+      "op": "pushint 32 // 32",
       "defined_out": [
         "32",
         "len%0#0",
@@ -758,7 +657,7 @@
         "32"
       ]
     },
-    "485": {
+    "518": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -769,14 +668,14 @@
         "eq%0#0"
       ]
     },
-    "486": {
+    "519": {
       "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
       "stack_out": [
         "spouse_address#0"
       ]
     },
-    "487": {
+    "520": {
       "op": "txn Sender",
       "defined_out": [
         "spouse_address#0",
@@ -787,7 +686,7 @@
         "tmp%0#1"
       ]
     },
-    "489": {
+    "522": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -800,7 +699,7 @@
         "0"
       ]
     },
-    "490": {
+    "523": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -815,7 +714,7 @@
         "\"spouse_1\""
       ]
     },
-    "491": {
+    "524": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -830,7 +729,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "492": {
+    "525": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -839,7 +738,7 @@
         "maybe_value%0#0"
       ]
     },
-    "493": {
+    "526": {
       "op": "swap",
       "stack_out": [
         "spouse_address#0",
@@ -847,7 +746,7 @@
         "tmp%0#1"
       ]
     },
-    "494": {
+    "527": {
       "op": "dig 1",
       "defined_out": [
         "maybe_value%0#0",
@@ -862,7 +761,7 @@
         "maybe_value%0#0 (copy)"
       ]
     },
-    "496": {
+    "529": {
       "op": "==",
       "defined_out": [
         "maybe_value%0#0",
@@ -875,14 +774,15 @@
         "tmp%1#1"
       ]
     },
-    "497": {
-      "op": "assert",
+    "530": {
+      "error": "Only spouse 1 can invite",
+      "op": "assert // Only spouse 1 can invite",
       "stack_out": [
         "spouse_address#0",
         "maybe_value%0#0"
       ]
     },
-    "498": {
+    "531": {
       "op": "intc_0 // 0",
       "stack_out": [
         "spouse_address#0",
@@ -890,7 +790,7 @@
         "0"
       ]
     },
-    "499": {
+    "532": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -905,7 +805,7 @@
         "\"contract_status\""
       ]
     },
-    "500": {
+    "533": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -920,7 +820,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "501": {
+    "534": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
@@ -929,8 +829,8 @@
         "maybe_value%1#0"
       ]
     },
-    "502": {
-      "op": "bytec 10 // 0x000e70656e64696e675f696e76697465",
+    "535": {
+      "op": "bytec 11 // 0x000e70656e64696e675f696e76697465",
       "defined_out": [
         "0x000e70656e64696e675f696e76697465",
         "maybe_value%0#0",
@@ -944,7 +844,7 @@
         "0x000e70656e64696e675f696e76697465"
       ]
     },
-    "504": {
+    "537": {
       "op": "==",
       "defined_out": [
         "maybe_value%0#0",
@@ -957,7 +857,7 @@
         "tmp%3#1"
       ]
     },
-    "505": {
+    "538": {
       "error": "Contract not in pending_invite state",
       "op": "assert // Contract not in pending_invite state",
       "stack_out": [
@@ -965,7 +865,7 @@
         "maybe_value%0#0"
       ]
     },
-    "506": {
+    "539": {
       "op": "intc_0 // 0",
       "stack_out": [
         "spouse_address#0",
@@ -973,7 +873,7 @@
         "0"
       ]
     },
-    "507": {
+    "540": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -988,7 +888,7 @@
         "\"spouse_2\""
       ]
     },
-    "508": {
+    "541": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1003,7 +903,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "509": {
+    "542": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -1012,7 +912,7 @@
         "maybe_value%2#0"
       ]
     },
-    "510": {
+    "543": {
       "op": "global ZeroAddress",
       "defined_out": [
         "maybe_value%0#0",
@@ -1027,7 +927,7 @@
         "tmp%4#0"
       ]
     },
-    "512": {
+    "545": {
       "op": "==",
       "defined_out": [
         "maybe_value%0#0",
@@ -1040,7 +940,7 @@
         "tmp%5#0"
       ]
     },
-    "513": {
+    "546": {
       "error": "Spouse 2 already invited",
       "op": "assert // Spouse 2 already invited",
       "stack_out": [
@@ -1048,7 +948,7 @@
         "maybe_value%0#0"
       ]
     },
-    "514": {
+    "547": {
       "op": "dig 1",
       "stack_out": [
         "spouse_address#0",
@@ -1056,7 +956,7 @@
         "spouse_address#0 (copy)"
       ]
     },
-    "516": {
+    "549": {
       "op": "!=",
       "defined_out": [
         "spouse_address#0",
@@ -1067,32 +967,32 @@
         "tmp%6#0"
       ]
     },
-    "517": {
+    "550": {
       "error": "Cannot invite yourself",
       "op": "assert // Cannot invite yourself",
       "stack_out": [
         "spouse_address#0"
       ]
     },
-    "518": {
+    "551": {
       "op": "bytec_2 // \"spouse_2\"",
       "stack_out": [
         "spouse_address#0",
         "\"spouse_2\""
       ]
     },
-    "519": {
+    "552": {
       "op": "swap",
       "stack_out": [
         "\"spouse_2\"",
         "spouse_address#0"
       ]
     },
-    "520": {
+    "553": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "521": {
+    "554": {
       "op": "pushbytes 0x151f7c75002753706f75736520696e76697465642e2057616974696e6720666f7220616363657074616e63652e",
       "defined_out": [
         "0x151f7c75002753706f75736520696e76697465642e2057616974696e6720666f7220616363657074616e63652e"
@@ -1101,11 +1001,11 @@
         "0x151f7c75002753706f75736520696e76697465642e2057616974696e6720666f7220616363657074616e63652e"
       ]
     },
-    "568": {
+    "601": {
       "op": "log",
       "stack_out": []
     },
-    "569": {
+    "602": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -1114,11 +1014,11 @@
         "1"
       ]
     },
-    "570": {
+    "603": {
       "op": "return",
       "stack_out": []
     },
-    "571": {
+    "604": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.accept_invite[routing]",
       "params": {},
       "block": "accept_invite",
@@ -1131,7 +1031,7 @@
         "tmp%0#1"
       ]
     },
-    "573": {
+    "606": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -1142,7 +1042,7 @@
         "0"
       ]
     },
-    "574": {
+    "607": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -1155,7 +1055,7 @@
         "\"spouse_2\""
       ]
     },
-    "575": {
+    "608": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1168,7 +1068,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "576": {
+    "609": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -1176,7 +1076,7 @@
         "maybe_value%0#0"
       ]
     },
-    "577": {
+    "610": {
       "op": "==",
       "defined_out": [
         "tmp%1#1"
@@ -1185,18 +1085,18 @@
         "tmp%1#1"
       ]
     },
-    "578": {
+    "611": {
       "error": "Only invited spouse can accept",
       "op": "assert // Only invited spouse can accept",
       "stack_out": []
     },
-    "579": {
+    "612": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "580": {
+    "613": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -1207,7 +1107,7 @@
         "\"contract_status\""
       ]
     },
-    "581": {
+    "614": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1218,15 +1118,15 @@
         "maybe_exists%1#0"
       ]
     },
-    "582": {
+    "615": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
         "maybe_value%1#0"
       ]
     },
-    "583": {
-      "op": "bytec 10 // 0x000e70656e64696e675f696e76697465",
+    "616": {
+      "op": "bytec 11 // 0x000e70656e64696e675f696e76697465",
       "defined_out": [
         "0x000e70656e64696e675f696e76697465",
         "maybe_value%1#0"
@@ -1236,7 +1136,7 @@
         "0x000e70656e64696e675f696e76697465"
       ]
     },
-    "585": {
+    "618": {
       "op": "==",
       "defined_out": [
         "tmp%3#0"
@@ -1245,19 +1145,19 @@
         "tmp%3#0"
       ]
     },
-    "586": {
+    "619": {
       "error": "Contract not in pending_invite state",
       "op": "assert // Contract not in pending_invite state",
       "stack_out": []
     },
-    "587": {
+    "620": {
       "op": "bytec_0 // \"contract_status\"",
       "stack_out": [
         "\"contract_status\""
       ]
     },
-    "588": {
-      "op": "bytec 11 // 0x0006616374697665",
+    "621": {
+      "op": "bytec 9 // 0x0006616374697665",
       "defined_out": [
         "\"contract_status\"",
         "0x0006616374697665"
@@ -1267,11 +1167,11 @@
         "0x0006616374697665"
       ]
     },
-    "590": {
+    "623": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "591": {
+    "624": {
       "op": "pushbytes 0x151f7c75002c496e7669746174696f6e2061636365707465642e20436f6e7472616374206973206e6f77206163746976652e",
       "defined_out": [
         "0x151f7c75002c496e7669746174696f6e2061636365707465642e20436f6e7472616374206973206e6f77206163746976652e"
@@ -1280,11 +1180,11 @@
         "0x151f7c75002c496e7669746174696f6e2061636365707465642e20436f6e7472616374206973206e6f77206163746976652e"
       ]
     },
-    "643": {
+    "676": {
       "op": "log",
       "stack_out": []
     },
-    "644": {
+    "677": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -1293,11 +1193,11 @@
         "1"
       ]
     },
-    "645": {
+    "678": {
       "op": "return",
       "stack_out": []
     },
-    "646": {
+    "679": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.deposit[routing]",
       "params": {},
       "block": "deposit",
@@ -1307,7 +1207,7 @@
         "amount_algo#0"
       ]
     },
-    "648": {
+    "681": {
       "op": "dupn 2",
       "stack_out": [
         "amount_algo#0",
@@ -1315,7 +1215,7 @@
         "points_earned#0"
       ]
     },
-    "650": {
+    "683": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%0#0"
@@ -1327,7 +1227,7 @@
         "tmp%0#0"
       ]
     },
-    "652": {
+    "685": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -1341,7 +1241,7 @@
         "1"
       ]
     },
-    "653": {
+    "686": {
       "op": "-",
       "defined_out": [
         "payment#0"
@@ -1353,7 +1253,7 @@
         "payment#0"
       ]
     },
-    "654": {
+    "687": {
       "op": "dup",
       "defined_out": [
         "payment#0"
@@ -1366,7 +1266,7 @@
         "payment#0"
       ]
     },
-    "655": {
+    "688": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_type%0#0",
@@ -1380,7 +1280,7 @@
         "gtxn_type%0#0"
       ]
     },
-    "657": {
+    "690": {
       "op": "intc_1 // pay",
       "defined_out": [
         "gtxn_type%0#0",
@@ -1396,7 +1296,7 @@
         "pay"
       ]
     },
-    "658": {
+    "691": {
       "op": "==",
       "defined_out": [
         "gtxn_type_matches%0#0",
@@ -1410,7 +1310,7 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "659": {
+    "692": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
@@ -1420,7 +1320,7 @@
         "payment#0"
       ]
     },
-    "660": {
+    "693": {
       "op": "intc_0 // 0",
       "stack_out": [
         "amount_algo#0",
@@ -1430,7 +1330,7 @@
         "0"
       ]
     },
-    "661": {
+    "694": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -1446,7 +1346,7 @@
         "\"contract_status\""
       ]
     },
-    "662": {
+    "695": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -1462,7 +1362,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "663": {
+    "696": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
@@ -1473,8 +1373,8 @@
         "maybe_value%0#0"
       ]
     },
-    "664": {
-      "op": "bytec 11 // 0x0006616374697665",
+    "697": {
+      "op": "bytec 9 // 0x0006616374697665",
       "defined_out": [
         "0x0006616374697665",
         "maybe_value%0#0",
@@ -1489,7 +1389,7 @@
         "0x0006616374697665"
       ]
     },
-    "666": {
+    "699": {
       "op": "==",
       "defined_out": [
         "payment#0",
@@ -1503,7 +1403,7 @@
         "tmp%1#1"
       ]
     },
-    "667": {
+    "700": {
       "error": "Contract must be active",
       "op": "assert // Contract must be active",
       "stack_out": [
@@ -1513,7 +1413,7 @@
         "payment#0"
       ]
     },
-    "668": {
+    "701": {
       "op": "txn Sender",
       "defined_out": [
         "payment#0",
@@ -1527,7 +1427,7 @@
         "tmp%2#1"
       ]
     },
-    "670": {
+    "703": {
       "op": "intc_0 // 0",
       "stack_out": [
         "amount_algo#0",
@@ -1538,7 +1438,7 @@
         "0"
       ]
     },
-    "671": {
+    "704": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -1556,7 +1456,7 @@
         "\"spouse_1\""
       ]
     },
-    "672": {
+    "705": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -1574,7 +1474,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "673": {
+    "706": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -1586,7 +1486,7 @@
         "maybe_value%1#0"
       ]
     },
-    "674": {
+    "707": {
       "op": "==",
       "defined_out": [
         "payment#0",
@@ -1600,7 +1500,7 @@
         "tmp%3#0"
       ]
     },
-    "675": {
+    "708": {
       "op": "bnz deposit_bool_true@3",
       "stack_out": [
         "amount_algo#0",
@@ -1609,7 +1509,7 @@
         "payment#0"
       ]
     },
-    "678": {
+    "711": {
       "op": "txn Sender",
       "defined_out": [
         "payment#0",
@@ -1623,7 +1523,7 @@
         "tmp%4#0"
       ]
     },
-    "680": {
+    "713": {
       "op": "intc_0 // 0",
       "stack_out": [
         "amount_algo#0",
@@ -1634,7 +1534,7 @@
         "0"
       ]
     },
-    "681": {
+    "714": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -1652,7 +1552,7 @@
         "\"spouse_2\""
       ]
     },
-    "682": {
+    "715": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1670,7 +1570,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "683": {
+    "716": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -1682,7 +1582,7 @@
         "maybe_value%2#0"
       ]
     },
-    "684": {
+    "717": {
       "op": "==",
       "defined_out": [
         "payment#0",
@@ -1696,7 +1596,7 @@
         "tmp%5#0"
       ]
     },
-    "685": {
+    "718": {
       "op": "bz deposit_bool_false@4",
       "stack_out": [
         "amount_algo#0",
@@ -1705,7 +1605,7 @@
         "payment#0"
       ]
     },
-    "688": {
+    "721": {
       "block": "deposit_bool_true@3",
       "stack_in": [
         "amount_algo#0",
@@ -1725,7 +1625,7 @@
         "or_result%0#0"
       ]
     },
-    "689": {
+    "722": {
       "error": "Only spouses can deposit",
       "block": "deposit_bool_merge@5",
       "stack_in": [
@@ -1744,7 +1644,7 @@
         "payment#0"
       ]
     },
-    "690": {
+    "723": {
       "op": "dupn 2",
       "defined_out": [
         "payment#0",
@@ -1759,7 +1659,7 @@
         "payment#0 (copy)"
       ]
     },
-    "692": {
+    "725": {
       "op": "gtxns Receiver",
       "defined_out": [
         "payment#0",
@@ -1774,7 +1674,7 @@
         "tmp%6#0"
       ]
     },
-    "694": {
+    "727": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "payment#0",
@@ -1791,7 +1691,7 @@
         "tmp%7#0"
       ]
     },
-    "696": {
+    "729": {
       "op": "==",
       "defined_out": [
         "payment#0",
@@ -1806,7 +1706,7 @@
         "tmp%8#0"
       ]
     },
-    "697": {
+    "730": {
       "error": "Payment must be to contract",
       "op": "assert // Payment must be to contract",
       "stack_out": [
@@ -1817,7 +1717,7 @@
         "payment#0"
       ]
     },
-    "698": {
+    "731": {
       "op": "gtxns Amount",
       "defined_out": [
         "amount_micro#0",
@@ -1831,7 +1731,7 @@
         "amount_micro#0"
       ]
     },
-    "700": {
+    "733": {
       "op": "dup",
       "stack_out": [
         "amount_algo#0",
@@ -1842,7 +1742,7 @@
         "amount_micro#0"
       ]
     },
-    "701": {
+    "734": {
       "op": "bury 4",
       "defined_out": [
         "amount_micro#0",
@@ -1856,7 +1756,7 @@
         "amount_micro#0"
       ]
     },
-    "703": {
+    "736": {
       "op": "pushint 1000000 // 1000000",
       "defined_out": [
         "1000000",
@@ -1872,7 +1772,7 @@
         "1000000"
       ]
     },
-    "707": {
+    "740": {
       "op": "/",
       "defined_out": [
         "amount_algo#0",
@@ -1887,7 +1787,7 @@
         "amount_algo#0"
       ]
     },
-    "708": {
+    "741": {
       "op": "dup",
       "stack_out": [
         "amount_algo#0",
@@ -1898,7 +1798,7 @@
         "amount_algo#0"
       ]
     },
-    "709": {
+    "742": {
       "op": "bury 5",
       "defined_out": [
         "amount_algo#0",
@@ -1913,7 +1813,7 @@
         "amount_algo#0"
       ]
     },
-    "711": {
+    "744": {
       "op": "pushint 5 // 5",
       "defined_out": [
         "5",
@@ -1930,7 +1830,7 @@
         "5"
       ]
     },
-    "713": {
+    "746": {
       "op": "<",
       "defined_out": [
         "amount_algo#0",
@@ -1946,7 +1846,7 @@
         "tmp%0#2"
       ]
     },
-    "714": {
+    "747": {
       "op": "bz deposit_else_body@11",
       "stack_out": [
         "amount_algo#0",
@@ -1955,7 +1855,7 @@
         "payment#0"
       ]
     },
-    "717": {
+    "750": {
       "op": "pushint 50 // 50",
       "defined_out": [
         "amount_algo#0",
@@ -1971,7 +1871,7 @@
         "points_earned#0"
       ]
     },
-    "719": {
+    "752": {
       "op": "bury 2",
       "defined_out": [
         "amount_algo#0",
@@ -1986,7 +1886,7 @@
         "payment#0"
       ]
     },
-    "721": {
+    "754": {
       "block": "deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14",
       "stack_in": [
         "amount_algo#0",
@@ -2006,8 +1906,8 @@
         "0"
       ]
     },
-    "722": {
-      "op": "bytec 5 // \"total_pool\"",
+    "755": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
         "\"total_pool\"",
         "0"
@@ -2021,7 +1921,7 @@
         "\"total_pool\""
       ]
     },
-    "724": {
+    "757": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%3#0",
@@ -2036,7 +1936,7 @@
         "maybe_exists%3#0"
       ]
     },
-    "725": {
+    "758": {
       "error": "check self.total_pool exists",
       "op": "assert // check self.total_pool exists",
       "stack_out": [
@@ -2047,7 +1947,7 @@
         "maybe_value%3#0"
       ]
     },
-    "726": {
+    "759": {
       "op": "dig 3",
       "defined_out": [
         "amount_micro#0",
@@ -2062,7 +1962,7 @@
         "amount_micro#0"
       ]
     },
-    "728": {
+    "761": {
       "op": "+",
       "defined_out": [
         "amount_micro#0",
@@ -2076,8 +1976,8 @@
         "tmp%12#0"
       ]
     },
-    "729": {
-      "op": "bytec 5 // \"total_pool\"",
+    "762": {
+      "op": "bytec 6 // \"total_pool\"",
       "stack_out": [
         "amount_algo#0",
         "amount_micro#0",
@@ -2087,7 +1987,7 @@
         "\"total_pool\""
       ]
     },
-    "731": {
+    "764": {
       "op": "swap",
       "stack_out": [
         "amount_algo#0",
@@ -2098,7 +1998,7 @@
         "tmp%12#0"
       ]
     },
-    "732": {
+    "765": {
       "op": "app_global_put",
       "stack_out": [
         "amount_algo#0",
@@ -2107,7 +2007,7 @@
         "payment#0"
       ]
     },
-    "733": {
+    "766": {
       "op": "txn Sender",
       "defined_out": [
         "amount_micro#0",
@@ -2121,7 +2021,7 @@
         "tmp%13#0"
       ]
     },
-    "735": {
+    "768": {
       "op": "intc_0 // 0",
       "stack_out": [
         "amount_algo#0",
@@ -2132,7 +2032,7 @@
         "0"
       ]
     },
-    "736": {
+    "769": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -2150,7 +2050,7 @@
         "\"spouse_1\""
       ]
     },
-    "737": {
+    "770": {
       "op": "app_global_get_ex",
       "defined_out": [
         "amount_micro#0",
@@ -2168,7 +2068,7 @@
         "maybe_exists%4#0"
       ]
     },
-    "738": {
+    "771": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -2180,7 +2080,7 @@
         "maybe_value%4#0"
       ]
     },
-    "739": {
+    "772": {
       "op": "==",
       "defined_out": [
         "amount_micro#0",
@@ -2194,7 +2094,7 @@
         "tmp%14#0"
       ]
     },
-    "740": {
+    "773": {
       "op": "bz deposit_else_body@7",
       "stack_out": [
         "amount_algo#0",
@@ -2203,7 +2103,7 @@
         "payment#0"
       ]
     },
-    "743": {
+    "776": {
       "op": "intc_0 // 0",
       "stack_out": [
         "amount_algo#0",
@@ -2213,8 +2113,8 @@
         "0"
       ]
     },
-    "744": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "777": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
         "\"spouse_1_points\"",
         "0",
@@ -2229,7 +2129,7 @@
         "\"spouse_1_points\""
       ]
     },
-    "745": {
+    "779": {
       "op": "app_global_get_ex",
       "defined_out": [
         "amount_micro#0",
@@ -2245,7 +2145,7 @@
         "maybe_exists%5#0"
       ]
     },
-    "746": {
+    "780": {
       "error": "check self.spouse_1_points exists",
       "op": "assert // check self.spouse_1_points exists",
       "stack_out": [
@@ -2256,7 +2156,7 @@
         "maybe_value%5#0"
       ]
     },
-    "747": {
+    "781": {
       "op": "dig 2",
       "defined_out": [
         "amount_micro#0",
@@ -2272,7 +2172,7 @@
         "points_earned#0"
       ]
     },
-    "749": {
+    "783": {
       "op": "+",
       "defined_out": [
         "amount_micro#0",
@@ -2287,8 +2187,8 @@
         "tmp%15#0"
       ]
     },
-    "750": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "784": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "stack_out": [
         "amount_algo#0",
         "amount_micro#0",
@@ -2298,7 +2198,7 @@
         "\"spouse_1_points\""
       ]
     },
-    "751": {
+    "786": {
       "op": "swap",
       "stack_out": [
         "amount_algo#0",
@@ -2309,7 +2209,7 @@
         "tmp%15#0"
       ]
     },
-    "752": {
+    "787": {
       "op": "app_global_put",
       "stack_out": [
         "amount_algo#0",
@@ -2318,7 +2218,7 @@
         "payment#0"
       ]
     },
-    "753": {
+    "788": {
       "op": "pushbytes 0x001853706f7573652031206465706f7369742073756363657373",
       "defined_out": [
         "amount_micro#0",
@@ -2333,7 +2233,7 @@
         "tmp%1#0"
       ]
     },
-    "781": {
+    "816": {
       "block": "deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@8",
       "stack_in": [
         "amount_algo#0",
@@ -2355,7 +2255,7 @@
         "0x151f7c75"
       ]
     },
-    "783": {
+    "818": {
       "op": "swap",
       "defined_out": [
         "0x151f7c75",
@@ -2370,7 +2270,7 @@
         "tmp%1#0"
       ]
     },
-    "784": {
+    "819": {
       "op": "concat",
       "defined_out": [
         "tmp%2#0"
@@ -2383,7 +2283,7 @@
         "tmp%2#0"
       ]
     },
-    "785": {
+    "820": {
       "op": "log",
       "stack_out": [
         "amount_algo#0",
@@ -2392,7 +2292,7 @@
         "payment#0"
       ]
     },
-    "786": {
+    "821": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -2405,7 +2305,7 @@
         "1"
       ]
     },
-    "787": {
+    "822": {
       "op": "return",
       "stack_out": [
         "amount_algo#0",
@@ -2414,7 +2314,7 @@
         "payment#0"
       ]
     },
-    "788": {
+    "823": {
       "block": "deposit_else_body@7",
       "stack_in": [
         "amount_algo#0",
@@ -2434,8 +2334,8 @@
         "0"
       ]
     },
-    "789": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "824": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
         "\"spouse_2_points\"",
         "0"
@@ -2449,7 +2349,7 @@
         "\"spouse_2_points\""
       ]
     },
-    "791": {
+    "826": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%6#0",
@@ -2464,7 +2364,7 @@
         "maybe_exists%6#0"
       ]
     },
-    "792": {
+    "827": {
       "error": "check self.spouse_2_points exists",
       "op": "assert // check self.spouse_2_points exists",
       "stack_out": [
@@ -2475,7 +2375,7 @@
         "maybe_value%6#0"
       ]
     },
-    "793": {
+    "828": {
       "op": "dig 2",
       "defined_out": [
         "maybe_value%6#0",
@@ -2490,7 +2390,7 @@
         "points_earned#0"
       ]
     },
-    "795": {
+    "830": {
       "op": "+",
       "defined_out": [
         "points_earned#0",
@@ -2504,8 +2404,8 @@
         "tmp%17#0"
       ]
     },
-    "796": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "831": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "stack_out": [
         "amount_algo#0",
         "amount_micro#0",
@@ -2515,7 +2415,7 @@
         "\"spouse_2_points\""
       ]
     },
-    "798": {
+    "833": {
       "op": "swap",
       "stack_out": [
         "amount_algo#0",
@@ -2526,7 +2426,7 @@
         "tmp%17#0"
       ]
     },
-    "799": {
+    "834": {
       "op": "app_global_put",
       "stack_out": [
         "amount_algo#0",
@@ -2535,7 +2435,7 @@
         "payment#0"
       ]
     },
-    "800": {
+    "835": {
       "op": "pushbytes 0x001853706f7573652032206465706f7369742073756363657373",
       "defined_out": [
         "points_earned#0",
@@ -2549,10 +2449,10 @@
         "tmp%1#0"
       ]
     },
-    "828": {
+    "863": {
       "op": "b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@8"
     },
-    "831": {
+    "866": {
       "block": "deposit_else_body@11",
       "stack_in": [
         "amount_algo#0",
@@ -2572,7 +2472,7 @@
         "amount_algo#0"
       ]
     },
-    "833": {
+    "868": {
       "op": "pushint 10 // 10",
       "defined_out": [
         "10",
@@ -2587,7 +2487,7 @@
         "10"
       ]
     },
-    "835": {
+    "870": {
       "op": "<",
       "defined_out": [
         "amount_algo#0",
@@ -2601,7 +2501,7 @@
         "tmp%1#1"
       ]
     },
-    "836": {
+    "871": {
       "op": "bz deposit_else_body@13",
       "stack_out": [
         "amount_algo#0",
@@ -2610,7 +2510,7 @@
         "payment#0"
       ]
     },
-    "839": {
+    "874": {
       "op": "pushint 75 // 75",
       "defined_out": [
         "amount_algo#0",
@@ -2624,7 +2524,7 @@
         "points_earned#0"
       ]
     },
-    "841": {
+    "876": {
       "op": "bury 2",
       "defined_out": [
         "amount_algo#0",
@@ -2637,10 +2537,10 @@
         "payment#0"
       ]
     },
-    "843": {
+    "878": {
       "op": "b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14"
     },
-    "846": {
+    "881": {
       "block": "deposit_else_body@13",
       "stack_in": [
         "amount_algo#0",
@@ -2660,7 +2560,7 @@
         "amount_algo#0"
       ]
     },
-    "848": {
+    "883": {
       "op": "pushint 20 // 20",
       "defined_out": [
         "20",
@@ -2675,7 +2575,7 @@
         "20"
       ]
     },
-    "850": {
+    "885": {
       "op": "/",
       "defined_out": [
         "amount_algo#0",
@@ -2689,7 +2589,7 @@
         "tmp%2#2"
       ]
     },
-    "851": {
+    "886": {
       "op": "pushint 100 // 100",
       "defined_out": [
         "100",
@@ -2705,7 +2605,7 @@
         "100"
       ]
     },
-    "853": {
+    "888": {
       "op": "*",
       "defined_out": [
         "amount_algo#0",
@@ -2719,7 +2619,7 @@
         "points_earned#0"
       ]
     },
-    "854": {
+    "889": {
       "op": "bury 2",
       "defined_out": [
         "amount_algo#0",
@@ -2732,10 +2632,10 @@
         "payment#0"
       ]
     },
-    "856": {
+    "891": {
       "op": "b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14"
     },
-    "859": {
+    "894": {
       "block": "deposit_bool_false@4",
       "stack_in": [
         "amount_algo#0",
@@ -2755,10 +2655,10 @@
         "or_result%0#0"
       ]
     },
-    "860": {
+    "895": {
       "op": "b deposit_bool_merge@5"
     },
-    "863": {
+    "898": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.request_withdrawal[routing]",
       "params": {},
       "block": "request_withdrawal",
@@ -2771,7 +2671,7 @@
         "0"
       ]
     },
-    "864": {
+    "899": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -2782,7 +2682,7 @@
         "\"contract_status\""
       ]
     },
-    "865": {
+    "900": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -2793,15 +2693,15 @@
         "maybe_exists%0#0"
       ]
     },
-    "866": {
+    "901": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "867": {
-      "op": "bytec 11 // 0x0006616374697665",
+    "902": {
+      "op": "bytec 9 // 0x0006616374697665",
       "defined_out": [
         "0x0006616374697665",
         "maybe_value%0#0"
@@ -2811,7 +2711,7 @@
         "0x0006616374697665"
       ]
     },
-    "869": {
+    "904": {
       "op": "==",
       "defined_out": [
         "tmp%1#1"
@@ -2820,12 +2720,12 @@
         "tmp%1#1"
       ]
     },
-    "870": {
+    "905": {
       "error": "Contract must be active",
       "op": "assert // Contract must be active",
       "stack_out": []
     },
-    "871": {
+    "906": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%2#0"
@@ -2834,14 +2734,14 @@
         "tmp%2#0"
       ]
     },
-    "873": {
+    "908": {
       "op": "intc_0 // 0",
       "stack_out": [
         "tmp%2#0",
         "0"
       ]
     },
-    "874": {
+    "909": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -2854,7 +2754,7 @@
         "\"spouse_1\""
       ]
     },
-    "875": {
+    "910": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -2867,7 +2767,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "876": {
+    "911": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -2875,7 +2775,7 @@
         "maybe_value%1#0"
       ]
     },
-    "877": {
+    "912": {
       "op": "==",
       "defined_out": [
         "tmp%3#0"
@@ -2884,11 +2784,11 @@
         "tmp%3#0"
       ]
     },
-    "878": {
+    "913": {
       "op": "bnz request_withdrawal_bool_true@3",
       "stack_out": []
     },
-    "881": {
+    "916": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%4#0"
@@ -2897,14 +2797,14 @@
         "tmp%4#0"
       ]
     },
-    "883": {
+    "918": {
       "op": "intc_0 // 0",
       "stack_out": [
         "tmp%4#0",
         "0"
       ]
     },
-    "884": {
+    "919": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -2917,7 +2817,7 @@
         "\"spouse_2\""
       ]
     },
-    "885": {
+    "920": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -2930,7 +2830,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "886": {
+    "921": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -2938,7 +2838,7 @@
         "maybe_value%2#0"
       ]
     },
-    "887": {
+    "922": {
       "op": "==",
       "defined_out": [
         "tmp%5#0"
@@ -2947,11 +2847,11 @@
         "tmp%5#0"
       ]
     },
-    "888": {
+    "923": {
       "op": "bz request_withdrawal_bool_false@4",
       "stack_out": []
     },
-    "891": {
+    "926": {
       "block": "request_withdrawal_bool_true@3",
       "stack_in": [],
       "op": "intc_1 // 1",
@@ -2962,7 +2862,7 @@
         "or_result%0#0"
       ]
     },
-    "892": {
+    "927": {
       "error": "Only spouse can request withdrawal",
       "block": "request_withdrawal_bool_merge@5",
       "stack_in": [
@@ -2972,7 +2872,7 @@
       "defined_out": [],
       "stack_out": []
     },
-    "893": {
+    "928": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\""
@@ -2981,8 +2881,8 @@
         "\"contract_status\""
       ]
     },
-    "894": {
-      "op": "bytec 14 // 0x001270656e64696e675f7769746864726177616c",
+    "929": {
+      "op": "bytec 13 // 0x001270656e64696e675f7769746864726177616c",
       "defined_out": [
         "\"contract_status\"",
         "0x001270656e64696e675f7769746864726177616c"
@@ -2992,12 +2892,12 @@
         "0x001270656e64696e675f7769746864726177616c"
       ]
     },
-    "896": {
+    "931": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "897": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
+    "932": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
       "defined_out": [
         "\"spouse_1_approved\""
       ],
@@ -3005,8 +2905,8 @@
         "\"spouse_1_approved\""
       ]
     },
-    "899": {
-      "op": "bytec 7 // 0x00",
+    "934": {
+      "op": "bytec_3 // 0x00",
       "defined_out": [
         "\"spouse_1_approved\"",
         "0x00"
@@ -3016,11 +2916,11 @@
         "0x00"
       ]
     },
-    "901": {
+    "935": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "902": {
+    "936": {
       "op": "bytec 8 // \"spouse_2_approved\"",
       "defined_out": [
         "\"spouse_2_approved\""
@@ -3029,18 +2929,18 @@
         "\"spouse_2_approved\""
       ]
     },
-    "904": {
-      "op": "bytec 7 // 0x00",
+    "938": {
+      "op": "bytec_3 // 0x00",
       "stack_out": [
         "\"spouse_2_approved\"",
         "0x00"
       ]
     },
-    "906": {
+    "939": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "907": {
+    "940": {
       "op": "pushbytes 0x151f7c7500305769746864726177616c207265717565737465642e20426f74682073706f75736573206d75737420617070726f76652e",
       "defined_out": [
         "0x151f7c7500305769746864726177616c207265717565737465642e20426f74682073706f75736573206d75737420617070726f76652e"
@@ -3049,11 +2949,11 @@
         "0x151f7c7500305769746864726177616c207265717565737465642e20426f74682073706f75736573206d75737420617070726f76652e"
       ]
     },
-    "963": {
+    "996": {
       "op": "log",
       "stack_out": []
     },
-    "964": {
+    "997": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -3062,11 +2962,11 @@
         "1"
       ]
     },
-    "965": {
+    "998": {
       "op": "return",
       "stack_out": []
     },
-    "966": {
+    "999": {
       "block": "request_withdrawal_bool_false@4",
       "stack_in": [],
       "op": "intc_0 // 0",
@@ -3077,10 +2977,10 @@
         "or_result%0#0"
       ]
     },
-    "967": {
+    "1000": {
       "op": "b request_withdrawal_bool_merge@5"
     },
-    "970": {
+    "1003": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.approve_withdrawal[routing]",
       "params": {},
       "block": "approve_withdrawal",
@@ -3093,7 +2993,7 @@
         "0"
       ]
     },
-    "971": {
+    "1004": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -3104,7 +3004,7 @@
         "\"contract_status\""
       ]
     },
-    "972": {
+    "1005": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -3115,15 +3015,15 @@
         "maybe_exists%0#0"
       ]
     },
-    "973": {
+    "1006": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "974": {
-      "op": "bytec 14 // 0x001270656e64696e675f7769746864726177616c",
+    "1007": {
+      "op": "bytec 13 // 0x001270656e64696e675f7769746864726177616c",
       "defined_out": [
         "0x001270656e64696e675f7769746864726177616c",
         "maybe_value%0#0"
@@ -3133,7 +3033,7 @@
         "0x001270656e64696e675f7769746864726177616c"
       ]
     },
-    "976": {
+    "1009": {
       "op": "==",
       "defined_out": [
         "tmp%1#1"
@@ -3142,12 +3042,12 @@
         "tmp%1#1"
       ]
     },
-    "977": {
+    "1010": {
       "error": "No withdrawal pending",
       "op": "assert // No withdrawal pending",
       "stack_out": []
     },
-    "978": {
+    "1011": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%2#0"
@@ -3156,14 +3056,14 @@
         "tmp%2#0"
       ]
     },
-    "980": {
+    "1013": {
       "op": "intc_0 // 0",
       "stack_out": [
         "tmp%2#0",
         "0"
       ]
     },
-    "981": {
+    "1014": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -3176,7 +3076,7 @@
         "\"spouse_1\""
       ]
     },
-    "982": {
+    "1015": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -3189,7 +3089,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "983": {
+    "1016": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -3197,7 +3097,7 @@
         "maybe_value%1#0"
       ]
     },
-    "984": {
+    "1017": {
       "op": "==",
       "defined_out": [
         "tmp%3#0"
@@ -3206,11 +3106,11 @@
         "tmp%3#0"
       ]
     },
-    "985": {
+    "1018": {
       "op": "bnz approve_withdrawal_bool_true@3",
       "stack_out": []
     },
-    "988": {
+    "1021": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%4#0"
@@ -3219,14 +3119,14 @@
         "tmp%4#0"
       ]
     },
-    "990": {
+    "1023": {
       "op": "intc_0 // 0",
       "stack_out": [
         "tmp%4#0",
         "0"
       ]
     },
-    "991": {
+    "1024": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -3239,7 +3139,7 @@
         "\"spouse_2\""
       ]
     },
-    "992": {
+    "1025": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -3252,7 +3152,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "993": {
+    "1026": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -3260,7 +3160,7 @@
         "maybe_value%2#0"
       ]
     },
-    "994": {
+    "1027": {
       "op": "==",
       "defined_out": [
         "tmp%5#0"
@@ -3269,11 +3169,11 @@
         "tmp%5#0"
       ]
     },
-    "995": {
+    "1028": {
       "op": "bz approve_withdrawal_bool_false@4",
       "stack_out": []
     },
-    "998": {
+    "1031": {
       "block": "approve_withdrawal_bool_true@3",
       "stack_in": [],
       "op": "intc_1 // 1",
@@ -3284,7 +3184,7 @@
         "or_result%0#0"
       ]
     },
-    "999": {
+    "1032": {
       "error": "Only spouses can approve",
       "block": "approve_withdrawal_bool_merge@5",
       "stack_in": [
@@ -3294,7 +3194,7 @@
       "defined_out": [],
       "stack_out": []
     },
-    "1000": {
+    "1033": {
       "op": "txn Sender",
       "defined_out": [
         "tmp%6#0"
@@ -3303,7 +3203,7 @@
         "tmp%6#0"
       ]
     },
-    "1002": {
+    "1035": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3314,7 +3214,7 @@
         "0"
       ]
     },
-    "1003": {
+    "1036": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -3327,7 +3227,7 @@
         "\"spouse_1\""
       ]
     },
-    "1004": {
+    "1037": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%3#0",
@@ -3340,7 +3240,7 @@
         "maybe_exists%3#0"
       ]
     },
-    "1005": {
+    "1038": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -3348,7 +3248,7 @@
         "maybe_value%3#0"
       ]
     },
-    "1006": {
+    "1039": {
       "op": "==",
       "defined_out": [
         "tmp%7#0"
@@ -3357,18 +3257,18 @@
         "tmp%7#0"
       ]
     },
-    "1007": {
+    "1040": {
       "op": "bz approve_withdrawal_else_body@9",
       "stack_out": []
     },
-    "1010": {
+    "1043": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "1011": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
+    "1044": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
       "defined_out": [
         "\"spouse_1_approved\"",
         "0"
@@ -3378,7 +3278,7 @@
         "\"spouse_1_approved\""
       ]
     },
-    "1013": {
+    "1046": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%4#0",
@@ -3389,21 +3289,21 @@
         "maybe_exists%4#0"
       ]
     },
-    "1014": {
+    "1047": {
       "error": "check self.spouse_1_approved exists",
       "op": "assert // check self.spouse_1_approved exists",
       "stack_out": [
         "maybe_value%4#0"
       ]
     },
-    "1015": {
+    "1048": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%4#0",
         "0"
       ]
     },
-    "1016": {
+    "1049": {
       "op": "getbit",
       "defined_out": [
         "aggregate%get_bit%0#0"
@@ -3412,7 +3312,7 @@
         "aggregate%get_bit%0#0"
       ]
     },
-    "1017": {
+    "1050": {
       "op": "!",
       "defined_out": [
         "tmp%9#0"
@@ -3421,18 +3321,18 @@
         "tmp%9#0"
       ]
     },
-    "1018": {
+    "1051": {
       "error": "Spouse 1 already approved",
       "op": "assert // Spouse 1 already approved",
       "stack_out": []
     },
-    "1019": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
+    "1052": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
       "stack_out": [
         "\"spouse_1_approved\""
       ]
     },
-    "1021": {
+    "1054": {
       "op": "pushbytes 0x80",
       "defined_out": [
         "\"spouse_1_approved\"",
@@ -3443,17 +3343,17 @@
         "0x80"
       ]
     },
-    "1024": {
+    "1057": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "1025": {
+    "1058": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "1026": {
+    "1059": {
       "op": "bytec 8 // \"spouse_2_approved\"",
       "defined_out": [
         "\"spouse_2_approved\"",
@@ -3464,7 +3364,7 @@
         "\"spouse_2_approved\""
       ]
     },
-    "1028": {
+    "1061": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%5#0",
@@ -3475,21 +3375,21 @@
         "maybe_exists%5#0"
       ]
     },
-    "1029": {
+    "1062": {
       "error": "check self.spouse_2_approved exists",
       "op": "assert // check self.spouse_2_approved exists",
       "stack_out": [
         "maybe_value%5#0"
       ]
     },
-    "1030": {
+    "1063": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%5#0",
         "0"
       ]
     },
-    "1031": {
+    "1064": {
       "op": "getbit",
       "defined_out": [
         "aggregate%get_bit%1#0"
@@ -3498,15 +3398,15 @@
         "aggregate%get_bit%1#0"
       ]
     },
-    "1032": {
+    "1065": {
       "op": "bz approve_withdrawal_else_body@8",
       "stack_out": []
     },
-    "1035": {
+    "1068": {
       "callsub": "smart_contracts.fair_split.contract.FairSplit._distribute_funds",
       "op": "callsub _distribute_funds"
     },
-    "1038": {
+    "1071": {
       "op": "bytec 15 // 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e",
       "defined_out": [
         "tmp%0#0"
@@ -3515,7 +3415,7 @@
         "tmp%0#0"
       ]
     },
-    "1040": {
+    "1073": {
       "block": "approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12",
       "stack_in": [
         "tmp%0#0"
@@ -3529,7 +3429,7 @@
         "0x151f7c75"
       ]
     },
-    "1042": {
+    "1075": {
       "op": "swap",
       "defined_out": [
         "0x151f7c75",
@@ -3540,7 +3440,7 @@
         "tmp%0#0"
       ]
     },
-    "1043": {
+    "1076": {
       "op": "concat",
       "defined_out": [
         "tmp%1#0"
@@ -3549,11 +3449,11 @@
         "tmp%1#0"
       ]
     },
-    "1044": {
+    "1077": {
       "op": "log",
       "stack_out": []
     },
-    "1045": {
+    "1078": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -3562,176 +3462,14 @@
         "1"
       ]
     },
-    "1046": {
+    "1079": {
       "op": "return",
       "stack_out": []
     },
-    "1047": {
+    "1080": {
       "block": "approve_withdrawal_else_body@8",
       "stack_in": [],
       "op": "pushbytes 0x002853706f757365203120617070726f7665642e2057616974696e6720666f722073706f75736520322e",
-      "defined_out": [
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0"
-      ]
-    },
-    "1091": {
-      "op": "b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12"
-    },
-    "1094": {
-      "block": "approve_withdrawal_else_body@9",
-      "stack_in": [],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0"
-      ],
-      "stack_out": [
-        "0"
-      ]
-    },
-    "1095": {
-      "op": "bytec 8 // \"spouse_2_approved\"",
-      "defined_out": [
-        "\"spouse_2_approved\"",
-        "0"
-      ],
-      "stack_out": [
-        "0",
-        "\"spouse_2_approved\""
-      ]
-    },
-    "1097": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%6#0",
-        "maybe_value%6#0"
-      ],
-      "stack_out": [
-        "maybe_value%6#0",
-        "maybe_exists%6#0"
-      ]
-    },
-    "1098": {
-      "error": "check self.spouse_2_approved exists",
-      "op": "assert // check self.spouse_2_approved exists",
-      "stack_out": [
-        "maybe_value%6#0"
-      ]
-    },
-    "1099": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%6#0",
-        "0"
-      ]
-    },
-    "1100": {
-      "op": "getbit",
-      "defined_out": [
-        "aggregate%get_bit%2#0"
-      ],
-      "stack_out": [
-        "aggregate%get_bit%2#0"
-      ]
-    },
-    "1101": {
-      "op": "!",
-      "defined_out": [
-        "tmp%15#0"
-      ],
-      "stack_out": [
-        "tmp%15#0"
-      ]
-    },
-    "1102": {
-      "error": "Spouse 2 already approved",
-      "op": "assert // Spouse 2 already approved",
-      "stack_out": []
-    },
-    "1103": {
-      "op": "bytec 8 // \"spouse_2_approved\"",
-      "stack_out": [
-        "\"spouse_2_approved\""
-      ]
-    },
-    "1105": {
-      "op": "pushbytes 0x80",
-      "defined_out": [
-        "\"spouse_2_approved\"",
-        "0x80"
-      ],
-      "stack_out": [
-        "\"spouse_2_approved\"",
-        "0x80"
-      ]
-    },
-    "1108": {
-      "op": "app_global_put",
-      "stack_out": []
-    },
-    "1109": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "0"
-      ]
-    },
-    "1110": {
-      "op": "bytec 6 // \"spouse_1_approved\"",
-      "defined_out": [
-        "\"spouse_1_approved\"",
-        "0"
-      ],
-      "stack_out": [
-        "0",
-        "\"spouse_1_approved\""
-      ]
-    },
-    "1112": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%7#0",
-        "maybe_value%7#0"
-      ],
-      "stack_out": [
-        "maybe_value%7#0",
-        "maybe_exists%7#0"
-      ]
-    },
-    "1113": {
-      "error": "check self.spouse_1_approved exists",
-      "op": "assert // check self.spouse_1_approved exists",
-      "stack_out": [
-        "maybe_value%7#0"
-      ]
-    },
-    "1114": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%7#0",
-        "0"
-      ]
-    },
-    "1115": {
-      "op": "getbit",
-      "defined_out": [
-        "aggregate%get_bit%3#0"
-      ],
-      "stack_out": [
-        "aggregate%get_bit%3#0"
-      ]
-    },
-    "1116": {
-      "op": "bz approve_withdrawal_else_body@11",
-      "stack_out": []
-    },
-    "1119": {
-      "callsub": "smart_contracts.fair_split.contract.FairSplit._distribute_funds",
-      "op": "callsub _distribute_funds"
-    },
-    "1122": {
-      "op": "bytec 15 // 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e",
       "defined_out": [
         "tmp%0#0"
       ],
@@ -3743,6 +3481,168 @@
       "op": "b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12"
     },
     "1127": {
+      "block": "approve_withdrawal_else_body@9",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1128": {
+      "op": "bytec 8 // \"spouse_2_approved\"",
+      "defined_out": [
+        "\"spouse_2_approved\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"spouse_2_approved\""
+      ]
+    },
+    "1130": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%6#0",
+        "maybe_value%6#0"
+      ],
+      "stack_out": [
+        "maybe_value%6#0",
+        "maybe_exists%6#0"
+      ]
+    },
+    "1131": {
+      "error": "check self.spouse_2_approved exists",
+      "op": "assert // check self.spouse_2_approved exists",
+      "stack_out": [
+        "maybe_value%6#0"
+      ]
+    },
+    "1132": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%6#0",
+        "0"
+      ]
+    },
+    "1133": {
+      "op": "getbit",
+      "defined_out": [
+        "aggregate%get_bit%2#0"
+      ],
+      "stack_out": [
+        "aggregate%get_bit%2#0"
+      ]
+    },
+    "1134": {
+      "op": "!",
+      "defined_out": [
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "tmp%15#0"
+      ]
+    },
+    "1135": {
+      "error": "Spouse 2 already approved",
+      "op": "assert // Spouse 2 already approved",
+      "stack_out": []
+    },
+    "1136": {
+      "op": "bytec 8 // \"spouse_2_approved\"",
+      "stack_out": [
+        "\"spouse_2_approved\""
+      ]
+    },
+    "1138": {
+      "op": "pushbytes 0x80",
+      "defined_out": [
+        "\"spouse_2_approved\"",
+        "0x80"
+      ],
+      "stack_out": [
+        "\"spouse_2_approved\"",
+        "0x80"
+      ]
+    },
+    "1141": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1142": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1143": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
+      "defined_out": [
+        "\"spouse_1_approved\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"spouse_1_approved\""
+      ]
+    },
+    "1145": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%7#0",
+        "maybe_value%7#0"
+      ],
+      "stack_out": [
+        "maybe_value%7#0",
+        "maybe_exists%7#0"
+      ]
+    },
+    "1146": {
+      "error": "check self.spouse_1_approved exists",
+      "op": "assert // check self.spouse_1_approved exists",
+      "stack_out": [
+        "maybe_value%7#0"
+      ]
+    },
+    "1147": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%7#0",
+        "0"
+      ]
+    },
+    "1148": {
+      "op": "getbit",
+      "defined_out": [
+        "aggregate%get_bit%3#0"
+      ],
+      "stack_out": [
+        "aggregate%get_bit%3#0"
+      ]
+    },
+    "1149": {
+      "op": "bz approve_withdrawal_else_body@11",
+      "stack_out": []
+    },
+    "1152": {
+      "callsub": "smart_contracts.fair_split.contract.FairSplit._distribute_funds",
+      "op": "callsub _distribute_funds"
+    },
+    "1155": {
+      "op": "bytec 15 // 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1157": {
+      "op": "b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12"
+    },
+    "1160": {
       "block": "approve_withdrawal_else_body@11",
       "stack_in": [],
       "op": "pushbytes 0x002853706f757365203220617070726f7665642e2057616974696e6720666f722073706f75736520312e",
@@ -3753,10 +3653,10 @@
         "tmp%0#0"
       ]
     },
-    "1171": {
+    "1204": {
       "op": "b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12"
     },
-    "1174": {
+    "1207": {
       "block": "approve_withdrawal_bool_false@4",
       "stack_in": [],
       "op": "intc_0 // 0",
@@ -3767,10 +3667,332 @@
         "or_result%0#0"
       ]
     },
-    "1175": {
+    "1208": {
       "op": "b approve_withdrawal_bool_merge@5"
     },
-    "1178": {
+    "1211": {
+      "subroutine": "smart_contracts.fair_split.contract.FairSplit.reject_withdrawal[routing]",
+      "params": {},
+      "block": "reject_withdrawal",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1212": {
+      "op": "bytec_0 // \"contract_status\"",
+      "defined_out": [
+        "\"contract_status\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"contract_status\""
+      ]
+    },
+    "1213": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1214": {
+      "error": "check self.contract_status exists",
+      "op": "assert // check self.contract_status exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "1215": {
+      "op": "bytec 13 // 0x001270656e64696e675f7769746864726177616c",
+      "defined_out": [
+        "0x001270656e64696e675f7769746864726177616c",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "0x001270656e64696e675f7769746864726177616c"
+      ]
+    },
+    "1217": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "tmp%1#1"
+      ]
+    },
+    "1218": {
+      "error": "No withdrawal pending",
+      "op": "assert // No withdrawal pending",
+      "stack_out": []
+    },
+    "1219": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "1221": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "tmp%2#0",
+        "0"
+      ]
+    },
+    "1222": {
+      "op": "bytec_1 // \"spouse_1\"",
+      "defined_out": [
+        "\"spouse_1\"",
+        "0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "0",
+        "\"spouse_1\""
+      ]
+    },
+    "1223": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "1224": {
+      "error": "check self.spouse_1 exists",
+      "op": "assert // check self.spouse_1 exists",
+      "stack_out": [
+        "tmp%2#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "1225": {
+      "op": "==",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "1226": {
+      "op": "bnz reject_withdrawal_bool_true@3",
+      "stack_out": []
+    },
+    "1229": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "1231": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "tmp%4#0",
+        "0"
+      ]
+    },
+    "1232": {
+      "op": "bytec_2 // \"spouse_2\"",
+      "defined_out": [
+        "\"spouse_2\"",
+        "0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0",
+        "0",
+        "\"spouse_2\""
+      ]
+    },
+    "1233": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1234": {
+      "error": "check self.spouse_2 exists",
+      "op": "assert // check self.spouse_2 exists",
+      "stack_out": [
+        "tmp%4#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "1235": {
+      "op": "==",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "1236": {
+      "op": "bz reject_withdrawal_bool_false@4",
+      "stack_out": []
+    },
+    "1239": {
+      "block": "reject_withdrawal_bool_true@3",
+      "stack_in": [],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "or_result%0#0"
+      ]
+    },
+    "1240": {
+      "error": "Only spouses can reject",
+      "block": "reject_withdrawal_bool_merge@5",
+      "stack_in": [
+        "or_result%0#0"
+      ],
+      "op": "assert // Only spouses can reject",
+      "defined_out": [],
+      "stack_out": []
+    },
+    "1241": {
+      "op": "bytec_0 // \"contract_status\"",
+      "defined_out": [
+        "\"contract_status\""
+      ],
+      "stack_out": [
+        "\"contract_status\""
+      ]
+    },
+    "1242": {
+      "op": "bytec 9 // 0x0006616374697665",
+      "defined_out": [
+        "\"contract_status\"",
+        "0x0006616374697665"
+      ],
+      "stack_out": [
+        "\"contract_status\"",
+        "0x0006616374697665"
+      ]
+    },
+    "1244": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1245": {
+      "op": "bytec 7 // \"spouse_1_approved\"",
+      "defined_out": [
+        "\"spouse_1_approved\""
+      ],
+      "stack_out": [
+        "\"spouse_1_approved\""
+      ]
+    },
+    "1247": {
+      "op": "bytec_3 // 0x00",
+      "defined_out": [
+        "\"spouse_1_approved\"",
+        "0x00"
+      ],
+      "stack_out": [
+        "\"spouse_1_approved\"",
+        "0x00"
+      ]
+    },
+    "1248": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1249": {
+      "op": "bytec 8 // \"spouse_2_approved\"",
+      "defined_out": [
+        "\"spouse_2_approved\""
+      ],
+      "stack_out": [
+        "\"spouse_2_approved\""
+      ]
+    },
+    "1251": {
+      "op": "bytec_3 // 0x00",
+      "stack_out": [
+        "\"spouse_2_approved\"",
+        "0x00"
+      ]
+    },
+    "1252": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1253": {
+      "op": "pushbytes 0x151f7c75002e5769746864726177616c2072656a65637465642e20436f6e74726163742069732061637469766520616761696e2e",
+      "defined_out": [
+        "0x151f7c75002e5769746864726177616c2072656a65637465642e20436f6e74726163742069732061637469766520616761696e2e"
+      ],
+      "stack_out": [
+        "0x151f7c75002e5769746864726177616c2072656a65637465642e20436f6e74726163742069732061637469766520616761696e2e"
+      ]
+    },
+    "1307": {
+      "op": "log",
+      "stack_out": []
+    },
+    "1308": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1309": {
+      "op": "return",
+      "stack_out": []
+    },
+    "1310": {
+      "block": "reject_withdrawal_bool_false@4",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "or_result%0#0"
+      ]
+    },
+    "1311": {
+      "op": "b reject_withdrawal_bool_merge@5"
+    },
+    "1314": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit.get_contract_info[routing]",
       "params": {},
       "block": "get_contract_info",
@@ -3783,7 +4005,7 @@
         "0"
       ]
     },
-    "1179": {
+    "1315": {
       "op": "bytec_0 // \"contract_status\"",
       "defined_out": [
         "\"contract_status\"",
@@ -3794,7 +4016,7 @@
         "\"contract_status\""
       ]
     },
-    "1180": {
+    "1316": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -3805,21 +4027,21 @@
         "maybe_exists%0#0"
       ]
     },
-    "1181": {
+    "1317": {
       "error": "check self.contract_status exists",
       "op": "assert // check self.contract_status exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "1182": {
+    "1318": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
         "0"
       ]
     },
-    "1183": {
+    "1319": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -3832,7 +4054,7 @@
         "\"spouse_1\""
       ]
     },
-    "1184": {
+    "1320": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -3845,7 +4067,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "1185": {
+    "1321": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
@@ -3853,7 +4075,7 @@
         "maybe_value%1#0"
       ]
     },
-    "1186": {
+    "1322": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -3861,7 +4083,7 @@
         "0"
       ]
     },
-    "1187": {
+    "1323": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -3876,7 +4098,7 @@
         "\"spouse_2\""
       ]
     },
-    "1188": {
+    "1324": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -3891,7 +4113,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "1189": {
+    "1325": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
@@ -3900,7 +4122,7 @@
         "maybe_value%2#0"
       ]
     },
-    "1190": {
+    "1326": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -3909,8 +4131,8 @@
         "0"
       ]
     },
-    "1191": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "1327": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
         "\"spouse_1_points\"",
         "0",
@@ -3926,7 +4148,7 @@
         "\"spouse_1_points\""
       ]
     },
-    "1192": {
+    "1329": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%3#0",
@@ -3943,7 +4165,7 @@
         "maybe_exists%3#0"
       ]
     },
-    "1193": {
+    "1330": {
       "error": "check self.spouse_1_points exists",
       "op": "assert // check self.spouse_1_points exists",
       "stack_out": [
@@ -3953,7 +4175,7 @@
         "maybe_value%3#0"
       ]
     },
-    "1194": {
+    "1331": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -3968,7 +4190,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "1195": {
+    "1332": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -3978,8 +4200,8 @@
         "0"
       ]
     },
-    "1196": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "1333": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
         "\"spouse_2_points\"",
         "0",
@@ -3997,7 +4219,7 @@
         "\"spouse_2_points\""
       ]
     },
-    "1198": {
+    "1335": {
       "op": "app_global_get_ex",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -4016,7 +4238,7 @@
         "maybe_exists%4#0"
       ]
     },
-    "1199": {
+    "1336": {
       "error": "check self.spouse_2_points exists",
       "op": "assert // check self.spouse_2_points exists",
       "stack_out": [
@@ -4027,7 +4249,7 @@
         "maybe_value%4#0"
       ]
     },
-    "1200": {
+    "1337": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -4044,7 +4266,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "1201": {
+    "1338": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -4055,8 +4277,8 @@
         "0"
       ]
     },
-    "1202": {
-      "op": "bytec 5 // \"total_pool\"",
+    "1339": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
         "\"total_pool\"",
         "0",
@@ -4076,7 +4298,7 @@
         "\"total_pool\""
       ]
     },
-    "1204": {
+    "1341": {
       "op": "app_global_get_ex",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -4097,7 +4319,7 @@
         "maybe_exists%5#0"
       ]
     },
-    "1205": {
+    "1342": {
       "error": "check self.total_pool exists",
       "op": "assert // check self.total_pool exists",
       "stack_out": [
@@ -4109,7 +4331,7 @@
         "maybe_value%5#0"
       ]
     },
-    "1206": {
+    "1343": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -4128,7 +4350,7 @@
         "aggregate%val_as_bytes%2#0"
       ]
     },
-    "1207": {
+    "1344": {
       "op": "pushbytes 0x005a",
       "defined_out": [
         "0x005a",
@@ -4149,7 +4371,7 @@
         "0x005a"
       ]
     },
-    "1211": {
+    "1348": {
       "op": "uncover 5",
       "stack_out": [
         "maybe_value%0#0",
@@ -4161,7 +4383,7 @@
         "maybe_value%1#0"
       ]
     },
-    "1213": {
+    "1350": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%1#0",
@@ -4180,7 +4402,7 @@
         "aggregate%head%1#0"
       ]
     },
-    "1214": {
+    "1351": {
       "op": "uncover 4",
       "stack_out": [
         "maybe_value%0#0",
@@ -4191,7 +4413,7 @@
         "maybe_value%2#0"
       ]
     },
-    "1216": {
+    "1353": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%2#0",
@@ -4208,7 +4430,7 @@
         "aggregate%head%2#0"
       ]
     },
-    "1217": {
+    "1354": {
       "op": "uncover 3",
       "stack_out": [
         "maybe_value%0#0",
@@ -4218,7 +4440,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "1219": {
+    "1356": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%3#0",
@@ -4233,7 +4455,7 @@
         "aggregate%head%3#0"
       ]
     },
-    "1220": {
+    "1357": {
       "op": "uncover 2",
       "stack_out": [
         "maybe_value%0#0",
@@ -4242,7 +4464,7 @@
         "aggregate%val_as_bytes%1#0"
       ]
     },
-    "1222": {
+    "1359": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%4#0",
@@ -4255,7 +4477,7 @@
         "aggregate%head%4#0"
       ]
     },
-    "1223": {
+    "1360": {
       "op": "swap",
       "stack_out": [
         "maybe_value%0#0",
@@ -4263,7 +4485,7 @@
         "aggregate%val_as_bytes%2#0"
       ]
     },
-    "1224": {
+    "1361": {
       "op": "concat",
       "defined_out": [
         "aggregate%head%5#0",
@@ -4274,14 +4496,14 @@
         "aggregate%head%5#0"
       ]
     },
-    "1225": {
+    "1362": {
       "op": "swap",
       "stack_out": [
         "aggregate%head%5#0",
         "maybe_value%0#0"
       ]
     },
-    "1226": {
+    "1363": {
       "op": "concat",
       "defined_out": [
         "aggregate%concat%0#0"
@@ -4290,7 +4512,7 @@
         "aggregate%concat%0#0"
       ]
     },
-    "1227": {
+    "1364": {
       "op": "bytec 12 // 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -4301,14 +4523,14 @@
         "0x151f7c75"
       ]
     },
-    "1229": {
+    "1366": {
       "op": "swap",
       "stack_out": [
         "0x151f7c75",
         "aggregate%concat%0#0"
       ]
     },
-    "1230": {
+    "1367": {
       "op": "concat",
       "defined_out": [
         "tmp%7#0"
@@ -4317,11 +4539,11 @@
         "tmp%7#0"
       ]
     },
-    "1231": {
+    "1368": {
       "op": "log",
       "stack_out": []
     },
-    "1232": {
+    "1369": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1"
@@ -4330,18 +4552,18 @@
         "1"
       ]
     },
-    "1233": {
+    "1370": {
       "op": "return",
       "stack_out": []
     },
-    "1234": {
+    "1371": {
       "subroutine": "smart_contracts.fair_split.contract.FairSplit._distribute_funds",
       "params": {},
       "block": "_distribute_funds",
       "stack_in": [],
       "op": "proto 0 0"
     },
-    "1237": {
+    "1374": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -4350,8 +4572,8 @@
         "0"
       ]
     },
-    "1238": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "1375": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
         "\"spouse_1_points\"",
         "0"
@@ -4361,7 +4583,7 @@
         "\"spouse_1_points\""
       ]
     },
-    "1239": {
+    "1377": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -4372,22 +4594,22 @@
         "maybe_exists%0#0"
       ]
     },
-    "1240": {
+    "1378": {
       "error": "check self.spouse_1_points exists",
       "op": "assert // check self.spouse_1_points exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "1241": {
+    "1379": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
         "0"
       ]
     },
-    "1242": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "1380": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
         "\"spouse_2_points\"",
         "0",
@@ -4399,7 +4621,7 @@
         "\"spouse_2_points\""
       ]
     },
-    "1244": {
+    "1382": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
@@ -4412,7 +4634,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "1245": {
+    "1383": {
       "error": "check self.spouse_2_points exists",
       "op": "assert // check self.spouse_2_points exists",
       "stack_out": [
@@ -4420,7 +4642,7 @@
         "maybe_value%1#0"
       ]
     },
-    "1246": {
+    "1384": {
       "op": "dig 1",
       "defined_out": [
         "maybe_value%0#0",
@@ -4433,7 +4655,7 @@
         "maybe_value%0#0 (copy)"
       ]
     },
-    "1248": {
+    "1386": {
       "op": "+",
       "defined_out": [
         "maybe_value%0#0",
@@ -4444,7 +4666,7 @@
         "total_points#0"
       ]
     },
-    "1249": {
+    "1387": {
       "op": "dup",
       "defined_out": [
         "maybe_value%0#0",
@@ -4457,7 +4679,7 @@
         "total_points#0 (copy)"
       ]
     },
-    "1250": {
+    "1388": {
       "error": "No points to distribute",
       "op": "assert // No points to distribute",
       "stack_out": [
@@ -4465,7 +4687,7 @@
         "total_points#0"
       ]
     },
-    "1251": {
+    "1389": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
@@ -4473,8 +4695,8 @@
         "0"
       ]
     },
-    "1252": {
-      "op": "bytec 5 // \"total_pool\"",
+    "1390": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
         "\"total_pool\"",
         "0",
@@ -4488,7 +4710,7 @@
         "\"total_pool\""
       ]
     },
-    "1254": {
+    "1392": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -4503,7 +4725,7 @@
         "maybe_exists%2#0"
       ]
     },
-    "1255": {
+    "1393": {
       "error": "check self.total_pool exists",
       "op": "assert // check self.total_pool exists",
       "stack_out": [
@@ -4512,138 +4734,166 @@
         "maybe_value%2#0"
       ]
     },
-    "1256": {
+    "1394": {
+      "op": "intc_2 // 100000",
+      "defined_out": [
+        "100000",
+        "maybe_value%0#0",
+        "maybe_value%2#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "total_points#0",
+        "maybe_value%2#0",
+        "100000"
+      ]
+    },
+    "1395": {
+      "op": "-",
+      "defined_out": [
+        "distributable_pool#0",
+        "maybe_value%0#0",
+        "total_points#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "total_points#0",
+        "distributable_pool#0"
+      ]
+    },
+    "1396": {
       "op": "intc_0 // 0",
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "0"
       ]
     },
-    "1257": {
-      "op": "bytec 13 // \"platform_fee_basis_points\"",
+    "1397": {
+      "op": "bytec 14 // \"platform_fee_basis_points\"",
       "defined_out": [
         "\"platform_fee_basis_points\"",
         "0",
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "0",
         "\"platform_fee_basis_points\""
       ]
     },
-    "1259": {
+    "1399": {
       "op": "app_global_get_ex",
       "defined_out": [
+        "distributable_pool#0",
         "maybe_exists%3#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
         "maybe_value%3#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "maybe_value%3#0",
         "maybe_exists%3#0"
       ]
     },
-    "1260": {
+    "1400": {
       "error": "check self.platform_fee_basis_points exists",
       "op": "assert // check self.platform_fee_basis_points exists",
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "maybe_value%3#0"
       ]
     },
-    "1261": {
+    "1401": {
       "op": "dig 1",
       "defined_out": [
+        "distributable_pool#0",
+        "distributable_pool#0 (copy)",
         "maybe_value%0#0",
-        "maybe_value%2#0",
-        "maybe_value%2#0 (copy)",
         "maybe_value%3#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "maybe_value%3#0",
-        "maybe_value%2#0 (copy)"
+        "distributable_pool#0 (copy)"
       ]
     },
-    "1263": {
+    "1403": {
       "op": "*",
       "defined_out": [
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
-        "tmp%2#0",
+        "tmp%3#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
-        "tmp%2#0"
+        "distributable_pool#0",
+        "tmp%3#0"
       ]
     },
-    "1264": {
+    "1404": {
       "op": "pushint 10000 // 10000",
       "defined_out": [
         "10000",
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
-        "tmp%2#0",
+        "tmp%3#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
-        "tmp%2#0",
+        "distributable_pool#0",
+        "tmp%3#0",
         "10000"
       ]
     },
-    "1267": {
+    "1407": {
       "op": "/",
       "defined_out": [
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
         "platform_fee#0",
         "total_points#0"
       ],
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "platform_fee#0"
       ]
     },
-    "1268": {
+    "1408": {
       "op": "dup",
       "stack_out": [
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "platform_fee#0",
         "platform_fee#0"
       ]
     },
-    "1269": {
+    "1409": {
       "op": "cover 4",
       "defined_out": [
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
         "platform_fee#0",
         "total_points#0"
       ],
@@ -4651,25 +4901,25 @@
         "platform_fee#0",
         "maybe_value%0#0",
         "total_points#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "platform_fee#0"
       ]
     },
-    "1271": {
+    "1411": {
       "op": "swap",
       "stack_out": [
         "platform_fee#0",
         "maybe_value%0#0",
         "total_points#0",
         "platform_fee#0",
-        "maybe_value%2#0"
+        "distributable_pool#0"
       ]
     },
-    "1272": {
+    "1412": {
       "op": "dig 1",
       "defined_out": [
+        "distributable_pool#0",
         "maybe_value%0#0",
-        "maybe_value%2#0",
         "platform_fee#0",
         "platform_fee#0 (copy)",
         "total_points#0"
@@ -4679,11 +4929,11 @@
         "maybe_value%0#0",
         "total_points#0",
         "platform_fee#0",
-        "maybe_value%2#0",
+        "distributable_pool#0",
         "platform_fee#0 (copy)"
       ]
     },
-    "1274": {
+    "1414": {
       "op": "-",
       "defined_out": [
         "distributable_amount#0",
@@ -4699,7 +4949,7 @@
         "distributable_amount#0"
       ]
     },
-    "1275": {
+    "1415": {
       "op": "dup",
       "defined_out": [
         "distributable_amount#0",
@@ -4717,7 +4967,7 @@
         "distributable_amount#0 (copy)"
       ]
     },
-    "1276": {
+    "1416": {
       "op": "uncover 4",
       "stack_out": [
         "platform_fee#0",
@@ -4728,12 +4978,12 @@
         "maybe_value%0#0"
       ]
     },
-    "1278": {
+    "1418": {
       "op": "*",
       "defined_out": [
         "distributable_amount#0",
         "platform_fee#0",
-        "tmp%5#0",
+        "tmp%6#0",
         "total_points#0"
       ],
       "stack_out": [
@@ -4741,20 +4991,20 @@
         "total_points#0",
         "platform_fee#0",
         "distributable_amount#0",
-        "tmp%5#0"
+        "tmp%6#0"
       ]
     },
-    "1279": {
+    "1419": {
       "op": "uncover 3",
       "stack_out": [
         "platform_fee#0",
         "platform_fee#0",
         "distributable_amount#0",
-        "tmp%5#0",
+        "tmp%6#0",
         "total_points#0"
       ]
     },
-    "1281": {
+    "1421": {
       "op": "/",
       "defined_out": [
         "distributable_amount#0",
@@ -4768,7 +5018,7 @@
         "spouse_1_share#0"
       ]
     },
-    "1282": {
+    "1422": {
       "op": "dup",
       "stack_out": [
         "platform_fee#0",
@@ -4778,7 +5028,7 @@
         "spouse_1_share#0"
       ]
     },
-    "1283": {
+    "1423": {
       "op": "cover 3",
       "defined_out": [
         "distributable_amount#0",
@@ -4793,7 +5043,7 @@
         "spouse_1_share#0"
       ]
     },
-    "1285": {
+    "1425": {
       "op": "-",
       "defined_out": [
         "platform_fee#0",
@@ -4807,7 +5057,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1286": {
+    "1426": {
       "op": "swap",
       "defined_out": [
         "platform_fee#0",
@@ -4821,7 +5071,7 @@
         "platform_fee#0"
       ]
     },
-    "1287": {
+    "1427": {
       "op": "bz _distribute_funds_after_if_else@3",
       "stack_out": [
         "platform_fee#0",
@@ -4829,10 +5079,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1290": {
+    "1430": {
       "op": "itxn_begin"
     },
-    "1291": {
+    "1431": {
       "op": "intc_0 // 0",
       "stack_out": [
         "platform_fee#0",
@@ -4841,8 +5091,8 @@
         "0"
       ]
     },
-    "1292": {
-      "op": "bytec 9 // \"platform_address\"",
+    "1432": {
+      "op": "bytec 10 // \"platform_address\"",
       "defined_out": [
         "\"platform_address\"",
         "0",
@@ -4858,11 +5108,11 @@
         "\"platform_address\""
       ]
     },
-    "1294": {
+    "1434": {
       "op": "app_global_get_ex",
       "defined_out": [
-        "maybe_exists%6#0",
-        "maybe_value%6#0",
+        "maybe_exists%5#0",
+        "maybe_value%5#0",
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0"
@@ -4871,40 +5121,40 @@
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%6#0",
-        "maybe_exists%6#0"
+        "maybe_value%5#0",
+        "maybe_exists%5#0"
       ]
     },
-    "1295": {
+    "1435": {
       "error": "check self.platform_address exists",
       "op": "assert // check self.platform_address exists",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%6#0"
+        "maybe_value%5#0"
       ]
     },
-    "1296": {
+    "1436": {
       "op": "frame_dig 0",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%6#0",
+        "maybe_value%5#0",
         "platform_fee#0"
       ]
     },
-    "1298": {
+    "1438": {
       "op": "itxn_field Amount",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%6#0"
+        "maybe_value%5#0"
       ]
     },
-    "1300": {
+    "1440": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "platform_fee#0",
@@ -4912,7 +5162,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1302": {
+    "1442": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay",
@@ -4927,7 +5177,7 @@
         "pay"
       ]
     },
-    "1303": {
+    "1443": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "platform_fee#0",
@@ -4935,7 +5185,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1305": {
+    "1445": {
       "op": "intc_0 // 0",
       "stack_out": [
         "platform_fee#0",
@@ -4944,7 +5194,7 @@
         "0"
       ]
     },
-    "1306": {
+    "1446": {
       "op": "itxn_field Fee",
       "stack_out": [
         "platform_fee#0",
@@ -4952,10 +5202,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1308": {
+    "1448": {
       "op": "itxn_submit"
     },
-    "1309": {
+    "1449": {
       "block": "_distribute_funds_after_if_else@3",
       "stack_in": [
         "platform_fee#0",
@@ -4973,7 +5223,7 @@
         "spouse_1_share#0"
       ]
     },
-    "1311": {
+    "1451": {
       "op": "bz _distribute_funds_after_if_else@6",
       "stack_out": [
         "platform_fee#0",
@@ -4981,10 +5231,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1314": {
+    "1454": {
       "op": "itxn_begin"
     },
-    "1315": {
+    "1455": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -4997,7 +5247,7 @@
         "0"
       ]
     },
-    "1316": {
+    "1456": {
       "op": "bytec_1 // \"spouse_1\"",
       "defined_out": [
         "\"spouse_1\"",
@@ -5012,51 +5262,51 @@
         "\"spouse_1\""
       ]
     },
-    "1317": {
+    "1457": {
       "op": "app_global_get_ex",
       "defined_out": [
-        "maybe_exists%7#0",
-        "maybe_value%7#0",
+        "maybe_exists%6#0",
+        "maybe_value%6#0",
         "spouse_1_share#0"
       ],
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%7#0",
-        "maybe_exists%7#0"
+        "maybe_value%6#0",
+        "maybe_exists%6#0"
       ]
     },
-    "1318": {
+    "1458": {
       "error": "check self.spouse_1 exists",
       "op": "assert // check self.spouse_1 exists",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%7#0"
+        "maybe_value%6#0"
       ]
     },
-    "1319": {
+    "1459": {
       "op": "frame_dig 1",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%7#0",
+        "maybe_value%6#0",
         "spouse_1_share#0"
       ]
     },
-    "1321": {
+    "1461": {
       "op": "itxn_field Amount",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%7#0"
+        "maybe_value%6#0"
       ]
     },
-    "1323": {
+    "1463": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "platform_fee#0",
@@ -5064,7 +5314,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1325": {
+    "1465": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay",
@@ -5077,7 +5327,7 @@
         "pay"
       ]
     },
-    "1326": {
+    "1466": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "platform_fee#0",
@@ -5085,7 +5335,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1328": {
+    "1468": {
       "op": "intc_0 // 0",
       "stack_out": [
         "platform_fee#0",
@@ -5094,7 +5344,7 @@
         "0"
       ]
     },
-    "1329": {
+    "1469": {
       "op": "itxn_field Fee",
       "stack_out": [
         "platform_fee#0",
@@ -5102,10 +5352,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1331": {
+    "1471": {
       "op": "itxn_submit"
     },
-    "1332": {
+    "1472": {
       "block": "_distribute_funds_after_if_else@6",
       "stack_in": [
         "platform_fee#0",
@@ -5123,7 +5373,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1334": {
+    "1474": {
       "op": "bz _distribute_funds_after_if_else@9",
       "stack_out": [
         "platform_fee#0",
@@ -5131,10 +5381,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1337": {
+    "1477": {
       "op": "itxn_begin"
     },
-    "1338": {
+    "1478": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -5147,7 +5397,7 @@
         "0"
       ]
     },
-    "1339": {
+    "1479": {
       "op": "bytec_2 // \"spouse_2\"",
       "defined_out": [
         "\"spouse_2\"",
@@ -5162,51 +5412,51 @@
         "\"spouse_2\""
       ]
     },
-    "1340": {
+    "1480": {
       "op": "app_global_get_ex",
       "defined_out": [
-        "maybe_exists%8#0",
-        "maybe_value%8#0",
+        "maybe_exists%7#0",
+        "maybe_value%7#0",
         "spouse_2_share#0"
       ],
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%8#0",
-        "maybe_exists%8#0"
+        "maybe_value%7#0",
+        "maybe_exists%7#0"
       ]
     },
-    "1341": {
+    "1481": {
       "error": "check self.spouse_2 exists",
       "op": "assert // check self.spouse_2 exists",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%8#0"
+        "maybe_value%7#0"
       ]
     },
-    "1342": {
+    "1482": {
       "op": "frame_dig 2",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%8#0",
+        "maybe_value%7#0",
         "spouse_2_share#0"
       ]
     },
-    "1344": {
+    "1484": {
       "op": "itxn_field Amount",
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
-        "maybe_value%8#0"
+        "maybe_value%7#0"
       ]
     },
-    "1346": {
+    "1486": {
       "op": "itxn_field Receiver",
       "stack_out": [
         "platform_fee#0",
@@ -5214,7 +5464,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1348": {
+    "1488": {
       "op": "intc_1 // pay",
       "defined_out": [
         "pay",
@@ -5227,7 +5477,7 @@
         "pay"
       ]
     },
-    "1349": {
+    "1489": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "platform_fee#0",
@@ -5235,7 +5485,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1351": {
+    "1491": {
       "op": "intc_0 // 0",
       "stack_out": [
         "platform_fee#0",
@@ -5244,7 +5494,7 @@
         "0"
       ]
     },
-    "1352": {
+    "1492": {
       "op": "itxn_field Fee",
       "stack_out": [
         "platform_fee#0",
@@ -5252,10 +5502,10 @@
         "spouse_2_share#0"
       ]
     },
-    "1354": {
+    "1494": {
       "op": "itxn_submit"
     },
-    "1355": {
+    "1495": {
       "block": "_distribute_funds_after_if_else@9",
       "stack_in": [
         "platform_fee#0",
@@ -5273,7 +5523,7 @@
         "\"contract_status\""
       ]
     },
-    "1356": {
+    "1496": {
       "op": "pushbytes 0x0009636f6d706c65746564",
       "defined_out": [
         "\"contract_status\"",
@@ -5287,7 +5537,7 @@
         "0x0009636f6d706c65746564"
       ]
     },
-    "1369": {
+    "1509": {
       "op": "app_global_put",
       "stack_out": [
         "platform_fee#0",
@@ -5295,8 +5545,8 @@
         "spouse_2_share#0"
       ]
     },
-    "1370": {
-      "op": "bytec 5 // \"total_pool\"",
+    "1510": {
+      "op": "bytec 6 // \"total_pool\"",
       "defined_out": [
         "\"total_pool\""
       ],
@@ -5307,21 +5557,21 @@
         "\"total_pool\""
       ]
     },
-    "1372": {
-      "op": "intc_0 // 0",
+    "1512": {
+      "op": "intc_2 // 100000",
       "defined_out": [
         "\"total_pool\"",
-        "0"
+        "100000"
       ],
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
         "spouse_2_share#0",
         "\"total_pool\"",
-        "0"
+        "100000"
       ]
     },
-    "1373": {
+    "1513": {
       "op": "app_global_put",
       "stack_out": [
         "platform_fee#0",
@@ -5329,8 +5579,8 @@
         "spouse_2_share#0"
       ]
     },
-    "1374": {
-      "op": "bytec_3 // \"spouse_1_points\"",
+    "1514": {
+      "op": "bytec 4 // \"spouse_1_points\"",
       "defined_out": [
         "\"spouse_1_points\""
       ],
@@ -5341,8 +5591,12 @@
         "\"spouse_1_points\""
       ]
     },
-    "1375": {
+    "1516": {
       "op": "intc_0 // 0",
+      "defined_out": [
+        "\"spouse_1_points\"",
+        "0"
+      ],
       "stack_out": [
         "platform_fee#0",
         "spouse_1_share#0",
@@ -5351,7 +5605,7 @@
         "0"
       ]
     },
-    "1376": {
+    "1517": {
       "op": "app_global_put",
       "stack_out": [
         "platform_fee#0",
@@ -5359,8 +5613,8 @@
         "spouse_2_share#0"
       ]
     },
-    "1377": {
-      "op": "bytec 4 // \"spouse_2_points\"",
+    "1518": {
+      "op": "bytec 5 // \"spouse_2_points\"",
       "defined_out": [
         "\"spouse_2_points\""
       ],
@@ -5371,7 +5625,7 @@
         "\"spouse_2_points\""
       ]
     },
-    "1379": {
+    "1520": {
       "op": "intc_0 // 0",
       "stack_out": [
         "platform_fee#0",
@@ -5381,7 +5635,7 @@
         "0"
       ]
     },
-    "1380": {
+    "1521": {
       "op": "app_global_put",
       "stack_out": [
         "platform_fee#0",
@@ -5389,7 +5643,7 @@
         "spouse_2_share#0"
       ]
     },
-    "1381": {
+    "1522": {
       "retsub": true,
       "op": "retsub"
     }
