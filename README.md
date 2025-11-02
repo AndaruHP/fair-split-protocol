@@ -1,6 +1,10 @@
 # 💍 FairSplit Protocol
 
-> *A decentralized marriage asset management protocol on Algorand blockchain*
+<p align="center">
+  <img width="400" src="/assets/fair-split.png">
+</p>
+
+> _A decentralized marriage asset management protocol on Algorand blockchain_
 
 [![Algorand](https://img.shields.io/badge/Blockchain-Algorand-000000?style=flat&logo=algorand)](https://algorand.com)
 [![Smart Contract](https://img.shields.io/badge/Smart%20Contract-AlgoPy-blue)](https://github.com/algorandfoundation/puya)
@@ -24,20 +28,24 @@
 ## 📋 How It Works
 
 ### 1️⃣ **Contract Creation**
+
 - Spouse 1 creates the contract and becomes the primary account
 - Contract is initialized with `pending_invite` status
 
 ### 2️⃣ **Invitation & Acceptance**
+
 - Spouse 1 invites Spouse 2 by providing their Algorand address
 - Spouse 2 accepts the invitation
 - Contract status changes to `active`
 
 ### 3️⃣ **Deposits & Points**
+
 - Both spouses can deposit ALGO into the shared pool
 - Each deposit earns points based on the **Tiered Points System**
 - Points determine the distribution ratio during withdrawal
 
 ### 4️⃣ **Withdrawal Process**
+
 - Either spouse can request a withdrawal
 - Both spouses must approve the withdrawal request
 - Upon dual approval, funds are automatically distributed
@@ -49,13 +57,14 @@
 
 The contract uses a fair points system to reward contributions:
 
-| Deposit Amount (ALGO) | Points Earned | Notes |
-|------------------------|---------------|-------|
-| **< 5 ALGO** | 0.5 points | Encourages small deposits |
-| **5 - 9.99 ALGO** | 0.75 points | Mid-tier reward |
-| **≥ 10 ALGO** | `floor(amount/20)` points | Scales with large deposits |
+| Deposit Amount (ALGO) | Points Earned             | Notes                      |
+| --------------------- | ------------------------- | -------------------------- |
+| **< 5 ALGO**          | 0.5 points                | Encourages small deposits  |
+| **5 - 9.99 ALGO**     | 0.75 points               | Mid-tier reward            |
+| **≥ 10 ALGO**         | `floor(amount/20)` points | Scales with large deposits |
 
 ### 📌 Examples:
+
 - Deposit **3 ALGO** → Earn **0.5 points**
 - Deposit **7 ALGO** → Earn **0.75 points**
 - Deposit **25 ALGO** → Earn **1 point** (25/20 = 1.25 → floor = 1)
@@ -66,10 +75,12 @@ The contract uses a fair points system to reward contributions:
 ## 💸 Platform Fee & Minimum Balance
 
 ### Platform Fee: **6.5%**
+
 - Deducted from the distributable pool during withdrawal
 - Sent to the platform address: `KO64H7YGWF6EEGP3EALQZTFR66UNYSRJLZOYGWGP5GTV2E4PBQDWFZNMIY`
 
 ### Minimum Balance: **0.1 ALGO**
+
 - Reserved in the contract to maintain account status
 - Not included in distribution calculations
 
@@ -87,12 +98,12 @@ stateDiagram-v2
     completed --> [*]
 ```
 
-| State | Description |
-|-------|-------------|
-| `pending_invite` | Waiting for Spouse 2 to accept invitation |
-| `active` | Both spouses joined, deposits allowed |
-| `pending_withdrawal` | Withdrawal requested, awaiting approvals |
-| `completed` | Funds distributed, contract lifecycle ended |
+| State                | Description                                 |
+| -------------------- | ------------------------------------------- |
+| `pending_invite`     | Waiting for Spouse 2 to accept invitation   |
+| `active`             | Both spouses joined, deposits allowed       |
+| `pending_withdrawal` | Withdrawal requested, awaiting approvals    |
+| `completed`          | Funds distributed, contract lifecycle ended |
 
 ---
 
@@ -102,7 +113,7 @@ stateDiagram-v2
 
 ```python
 # Spouse 1 creates the contract
-create_contract() 
+create_contract()
 # Returns: "Contract created. Wait for spouse invitation."
 ```
 
@@ -168,12 +179,14 @@ get_contract_info()
 ## 💡 Use Cases
 
 ### 📌 **Scenario 1: Shared Savings**
+
 - **Couple A** wants to save for a house
 - They both deposit monthly into FairSplit
 - Each contribution is tracked transparently
 - When goal is reached, they withdraw with fair distribution
 
 ### 📌 **Scenario 2: Joint Investment**
+
 - **Partner 1** deposits 60 ALGO (3 points)
 - **Partner 2** deposits 40 ALGO (2 points)
 - Total pool: 100 ALGO
@@ -183,6 +196,7 @@ get_contract_info()
   - Partner 2 receives: ~37.46 ALGO (40% of 93.65)
 
 ### 📌 **Scenario 3: Emergency Exit**
+
 - Either spouse can request withdrawal
 - Both must approve (prevents unilateral decisions)
 - If disagreement occurs, rejection returns to active state
@@ -192,11 +206,13 @@ get_contract_info()
 ## 🛠️ Technical Details
 
 ### Built With
+
 - **Language**: AlgoPy (Python-based Algorand smart contract language)
 - **Blockchain**: Algorand
 - **Contract Type**: ARC4 Application
 
 ### Security Features
+
 - ✅ Authorization checks (only spouses can perform actions)
 - ✅ State validation (actions only allowed in correct states)
 - ✅ Safe math operations (no overflow/underflow)
@@ -204,6 +220,7 @@ get_contract_info()
 - ✅ Dual approval requirement for withdrawals
 
 ### Contract Storage
+
 - Spouse addresses (2)
 - Points tracking (2)
 - Total pool amount
@@ -216,17 +233,21 @@ get_contract_info()
 ## 🚀 Deployment
 
 ### Prerequisites
+
 - Algorand wallet with funded account
 - AlgoPy development environment
 - Algorand CLI tools
 
 ### Steps
+
 1. Compile the contract:
+
    ```bash
    algokit compile py smart_contracts/fair_split/contract.py
    ```
 
 2. Deploy to testnet/mainnet:
+
    ```bash
    algokit deploy
    ```
@@ -244,6 +265,7 @@ pytest smart_contracts/tests/
 ```
 
 Test coverage includes:
+
 - Contract creation and initialization
 - Invitation system
 - Deposit mechanics and point calculation
@@ -256,25 +278,29 @@ Test coverage includes:
 ## 📊 Example Calculation
 
 ### Initial State
+
 - Spouse 1 deposits: 10 ALGO → 0 points (10/20 = 0)
 - Spouse 2 deposits: 30 ALGO → 1 point (30/20 = 1)
 - Wait... Let me recalculate based on code
 
 Actually:
+
 - 10 ALGO → `floor(10/20) * 100 = 0 * 100 = 0` points? No wait...
 - Looking at code: `(amount_algo // UInt64(20)) * UInt64(100)`
-- 10 ALGO → (10 // 20) * 100 = 0 * 100 = 0 points
-- 25 ALGO → (25 // 20) * 100 = 1 * 100 = 100 points (1 point)
+- 10 ALGO → (10 // 20) _ 100 = 0 _ 100 = 0 points
+- 25 ALGO → (25 // 20) _ 100 = 1 _ 100 = 100 points (1 point)
 
 Let me correct the example:
 
 ### Deposit History
+
 - Spouse 1 deposits: 25 ALGO → Earns 1.00 points (25/20 = 1)
 - Spouse 2 deposits: 75 ALGO → Earns 3.00 points (75/20 = 3)
 - **Total Pool**: 100 ALGO
 - **Total Points**: 4.00
 
 ### Withdrawal Distribution
+
 1. **Minimum Balance Reserved**: 0.1 ALGO
 2. **Distributable Pool**: 99.9 ALGO
 3. **Platform Fee (6.5%)**: 6.49 ALGO
@@ -299,6 +325,7 @@ Let me correct the example:
 Contributions are welcome! Please feel free to submit issues and pull requests.
 
 ### Development Setup
+
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/fair_split.git
@@ -329,6 +356,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💬 Support & Contact
 
 For questions, issues, or suggestions:
+
 - Open an issue on GitHub
 - Join our community Discord
 - Email: support@fairsplit.protocol
@@ -339,6 +367,6 @@ For questions, issues, or suggestions:
 
 **Built with ❤️ on Algorand Blockchain**
 
-*Fair, Transparent, Decentralized*
+_Fair, Transparent, Decentralized_
 
 </div>
