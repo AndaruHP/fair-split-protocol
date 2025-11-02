@@ -4,95 +4,238 @@
 // algopy.arc4.ARC4Contract.approval_program() -> uint64:
 main:
     intcblock 0 1 32
-    bytecblock "p1_points" "p2_points" "partner1" "partner2" 0x151f7c75
+    bytecblock "contract_status" "spouse_1" "spouse_2" "spouse_1_points" "spouse_2_points" "total_pool" "spouse_1_approved" 0x00 "spouse_2_approved" "platform_address" 0x000e70656e64696e675f696e76697465 0x0006616374697665 0x151f7c75 "platform_fee_basis_points" 0x001270656e64696e675f7769746864726177616c 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e
     txn ApplicationID
     bnz main_after_if_else@2
-    // smart_contracts/fair_split/contract.py:12
-    // self.partner1 = Account()
-    bytec_2 // "partner1"
+    // smart_contracts/fair_split/contract.py:17
+    // self.spouse_1 = Account()
+    bytec_1 // "spouse_1"
     global ZeroAddress
     app_global_put
-    // smart_contracts/fair_split/contract.py:13
-    // self.partner2 = Account()
-    bytec_3 // "partner2"
+    // smart_contracts/fair_split/contract.py:18
+    // self.spouse_2 = Account()
+    bytec_2 // "spouse_2"
     global ZeroAddress
     app_global_put
-    // smart_contracts/fair_split/contract.py:14
-    // self.p1_points = UInt64(0)
-    bytec_0 // "p1_points"
+    // smart_contracts/fair_split/contract.py:20
+    // self.spouse_1_points = UInt64(0)
+    bytec_3 // "spouse_1_points"
     intc_0 // 0
     app_global_put
-    // smart_contracts/fair_split/contract.py:15
-    // self.p2_points = UInt64(0)
-    bytec_1 // "p2_points"
+    // smart_contracts/fair_split/contract.py:21
+    // self.spouse_2_points = UInt64(0)
+    bytec 4 // "spouse_2_points"
     intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:23
+    // self.total_pool = UInt64(0)
+    bytec 5 // "total_pool"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:25
+    // self.contract_status = arc4.String()
+    bytec_0 // "contract_status"
+    pushbytes 0x0000
+    app_global_put
+    // smart_contracts/fair_split/contract.py:27
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 6 // "spouse_1_approved"
+    bytec 7 // 0x00
+    app_global_put
+    // smart_contracts/fair_split/contract.py:28
+    // self.spouse_2_approved = arc4.Bool(False)
+    bytec 8 // "spouse_2_approved"
+    // smart_contracts/fair_split/contract.py:27
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 7 // 0x00
+    // smart_contracts/fair_split/contract.py:28
+    // self.spouse_2_approved = arc4.Bool(False)
+    app_global_put
+    // smart_contracts/fair_split/contract.py:30
+    // self.platform_address = Account()
+    bytec 9 // "platform_address"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/fair_split/contract.py:31
+    // self.platform_fee_basis_points = UInt64(650) # 6.5%
+    bytec 13 // "platform_fee_basis_points"
+    pushint 650 // 650
     app_global_put
 
 main_after_if_else@2:
-    // smart_contracts/fair_split/contract.py:6
+    // smart_contracts/fair_split/contract.py:4
     // class FairSplit(ARC4Contract):
-    txn NumAppArgs
-    bz main___algopy_default_create@12
     txn OnCompletion
     !
     assert // OnCompletion must be NoOp
     txn ApplicationID
-    assert
-    pushbytess 0x42a5417f 0x77c7289f 0x9b028f8b // method "setup(address,address)string", method "deposit()string", method "calculate()string"
+    bz main_create_NoOp@12
+    pushbytess 0xedb2fc94 0x2368d4c2 0xaf720408 0x3424b0d7 0x4ac67e05 0x7b628de3 // method "invite_spouse(address)string", method "accept_invite()string", method "deposit(pay)string", method "request_withdrawal()string", method "approve_withdrawal()string", method "get_contract_info()(string,address,address,uint64,uint64,uint64)"
     txna ApplicationArgs 0
-    match setup deposit calculate
+    match invite_spouse accept_invite deposit request_withdrawal approve_withdrawal get_contract_info
     err
 
-main___algopy_default_create@12:
-    txn OnCompletion
-    !
-    txn ApplicationID
-    !
-    &&
-    assert // OnCompletion must be NoOp && can only call when creating
-    intc_1 // 1
-    return
+main_create_NoOp@12:
+    // smart_contracts/fair_split/contract.py:4
+    // class FairSplit(ARC4Contract):
+    pushbytes 0x17f78894 // method "create_contract(address)string"
+    txna ApplicationArgs 0
+    match create_contract
+    err
 
 
-// smart_contracts.fair_split.contract.FairSplit.setup[routing]() -> void:
-setup:
-    // smart_contracts/fair_split/contract.py:17
-    // @abimethod()
+// smart_contracts.fair_split.contract.FairSplit.create_contract[routing]() -> void:
+create_contract:
+    // smart_contracts/fair_split/contract.py:33
+    // @arc4.abimethod(allow_actions=["NoOp"], create="require")
     txna ApplicationArgs 1
     dup
     len
     intc_2 // 32
     ==
     assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
-    txna ApplicationArgs 2
+    // smart_contracts/fair_split/contract.py:45
+    // self.spouse_1 = Txn.sender
+    bytec_1 // "spouse_1"
+    txn Sender
+    app_global_put
+    // smart_contracts/fair_split/contract.py:46
+    // self.spouse_2 = Global.zero_address
+    bytec_2 // "spouse_2"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/fair_split/contract.py:48
+    // self.spouse_1_points = UInt64(0)
+    bytec_3 // "spouse_1_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:49
+    // self.spouse_2_points = UInt64(0)
+    bytec 4 // "spouse_2_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:50
+    // self.total_pool = UInt64(0)
+    bytec 5 // "total_pool"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:52
+    // self.contract_status = arc4.String("pending_invite")
+    bytec_0 // "contract_status"
+    bytec 10 // 0x000e70656e64696e675f696e76697465
+    app_global_put
+    // smart_contracts/fair_split/contract.py:54
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 6 // "spouse_1_approved"
+    bytec 7 // 0x00
+    app_global_put
+    // smart_contracts/fair_split/contract.py:55
+    // self.spouse_2_approved = arc4.Bool(False)
+    bytec 8 // "spouse_2_approved"
+    // smart_contracts/fair_split/contract.py:54
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 7 // 0x00
+    // smart_contracts/fair_split/contract.py:55
+    // self.spouse_2_approved = arc4.Bool(False)
+    app_global_put
+    // smart_contracts/fair_split/contract.py:57
+    // self.platform_address = platform_addr
+    bytec 9 // "platform_address"
+    swap
+    app_global_put
+    // smart_contracts/fair_split/contract.py:33
+    // @arc4.abimethod(allow_actions=["NoOp"], create="require")
+    pushbytes 0x151f7c75002d436f6e747261637420637265617465642e205761697420666f722073706f75736520696e7669746174696f6e2e
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.fair_split.contract.FairSplit.invite_spouse[routing]() -> void:
+invite_spouse:
+    // smart_contracts/fair_split/contract.py:61
+    // @arc4.abimethod
+    txna ApplicationArgs 1
     dup
     len
     intc_2 // 32
     ==
     assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
-    // smart_contracts/fair_split/contract.py:20
-    // self.partner1 = p1
-    bytec_2 // "partner1"
-    uncover 2
-    app_global_put
-    // smart_contracts/fair_split/contract.py:21
-    // self.partner2 = p2
-    bytec_3 // "partner2"
+    // smart_contracts/fair_split/contract.py:73
+    // assert Txn.sender == self.spouse_1
+    txn Sender
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    swap
+    dig 1
+    ==
+    assert
+    // smart_contracts/fair_split/contract.py:75
+    // assert self.contract_status == arc4.String("pending_invite"), "Contract not in pending_invite state"
+    intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    bytec 10 // 0x000e70656e64696e675f696e76697465
+    ==
+    assert // Contract not in pending_invite state
+    // smart_contracts/fair_split/contract.py:77
+    // assert self.spouse_2 == Global.zero_address, "Spouse 2 already invited"
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    global ZeroAddress
+    ==
+    assert // Spouse 2 already invited
+    // smart_contracts/fair_split/contract.py:79
+    // assert spouse_address != self.spouse_1, "Cannot invite yourself"
+    dig 1
+    !=
+    assert // Cannot invite yourself
+    // smart_contracts/fair_split/contract.py:81
+    // self.spouse_2 = spouse_address
+    bytec_2 // "spouse_2"
     swap
     app_global_put
-    // smart_contracts/fair_split/contract.py:22
-    // self.p1_points = UInt64(0)
-    bytec_0 // "p1_points"
+    // smart_contracts/fair_split/contract.py:61
+    // @arc4.abimethod
+    pushbytes 0x151f7c75002753706f75736520696e76697465642e2057616974696e6720666f7220616363657074616e63652e
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.fair_split.contract.FairSplit.accept_invite[routing]() -> void:
+accept_invite:
+    // smart_contracts/fair_split/contract.py:94
+    // assert Txn.sender == self.spouse_2, "Only invited spouse can accept"
+    txn Sender
     intc_0 // 0
-    app_global_put
-    // smart_contracts/fair_split/contract.py:23
-    // self.p2_points = UInt64(0)
-    bytec_1 // "p2_points"
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    ==
+    assert // Only invited spouse can accept
+    // smart_contracts/fair_split/contract.py:96
+    // assert self.contract_status == arc4.String("pending_invite"), "Contract not in pending_invite state"
     intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    bytec 10 // 0x000e70656e64696e675f696e76697465
+    ==
+    assert // Contract not in pending_invite state
+    // smart_contracts/fair_split/contract.py:98
+    // self.contract_status = arc4.String("active")
+    bytec_0 // "contract_status"
+    bytec 11 // 0x0006616374697665
     app_global_put
-    // smart_contracts/fair_split/contract.py:17
-    // @abimethod()
-    pushbytes 0x151f7c75001a506172746e65727320736574207375636365737366756c6c7921
+    // smart_contracts/fair_split/contract.py:85
+    // @arc4.abimethod
+    pushbytes 0x151f7c75002c496e7669746174696f6e2061636365707465642e20436f6e7472616374206973206e6f77206163746976652e
     log
     intc_1 // 1
     return
@@ -100,264 +243,632 @@ setup:
 
 // smart_contracts.fair_split.contract.FairSplit.deposit[routing]() -> void:
 deposit:
-    // smart_contracts/fair_split/contract.py:32
-    // sender = Txn.sender
+    pushbytes ""
+    dupn 2
+    // smart_contracts/fair_split/contract.py:102
+    // @arc4.abimethod
+    txn GroupIndex
+    intc_1 // 1
+    -
+    dup
+    gtxns TypeEnum
+    intc_1 // pay
+    ==
+    assert // transaction type is pay
+    // smart_contracts/fair_split/contract.py:119
+    // assert self.contract_status == arc4.String("active"), "Contract must be active"
+    intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    bytec 11 // 0x0006616374697665
+    ==
+    assert // Contract must be active
+    // smart_contracts/fair_split/contract.py:121
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouses can deposit"
     txn Sender
-    // smart_contracts/fair_split/contract.py:33
-    // amount_micro = Txn.amount
-    txn Amount
-    // smart_contracts/fair_split/contract.py:34
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    ==
+    bnz deposit_bool_true@3
+    txn Sender
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    ==
+    bz deposit_bool_false@4
+
+deposit_bool_true@3:
+    intc_1 // 1
+
+deposit_bool_merge@5:
+    // smart_contracts/fair_split/contract.py:121
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouses can deposit"
+    assert // Only spouses can deposit
+    // smart_contracts/fair_split/contract.py:123
+    // assert payment.receiver == Global.current_application_address, "Payment must be to contract"
+    dupn 2
+    gtxns Receiver
+    global CurrentApplicationAddress
+    ==
+    assert // Payment must be to contract
+    // smart_contracts/fair_split/contract.py:125
+    // amount_micro = payment.amount
+    gtxns Amount
+    dup
+    bury 4
+    // smart_contracts/fair_split/contract.py:126
     // amount_algo = amount_micro // UInt64(1_000_000)
     pushint 1000000 // 1000000
     /
     dup
-    // smart_contracts/fair_split/contract.py:36
-    // points_earned = UInt64(0)
-    intc_0 // 0
-    swap
-    // smart_contracts/fair_split/contract.py:37
-    // if amount_algo >= UInt64(10):
-    pushint 10 // 10
-    >=
-    bz deposit_else_body@3
-    // smart_contracts/fair_split/contract.py:38
-    // points_earned = UInt64(2)
-    pushint 2 // 2
-    bury 1
-
-deposit_after_if_else@9:
-    // smart_contracts/fair_split/contract.py:44
-    // if sender == self.partner1:
-    intc_0 // 0
-    bytec_2 // "partner1"
-    app_global_get_ex
-    assert // check self.partner1 exists
-    dig 3
-    ==
+    bury 5
+    // smart_contracts/fair_split/contract.py:151
+    // if amount_algo < UInt64(5):
+    pushint 5 // 5
+    <
     bz deposit_else_body@11
-    // smart_contracts/fair_split/contract.py:45
-    // self.p1_points = self.p1_points + points_earned
+    // smart_contracts/fair_split/contract.py:152
+    // return UInt64(50)
+    pushint 50 // 50
+    bury 2
+
+deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14:
+    // smart_contracts/fair_split/contract.py:130
+    // self.total_pool += amount_micro
     intc_0 // 0
-    bytec_0 // "p1_points"
+    bytec 5 // "total_pool"
     app_global_get_ex
-    assert // check self.p1_points exists
-    dig 1
+    assert // check self.total_pool exists
+    dig 3
     +
-    bytec_0 // "p1_points"
+    bytec 5 // "total_pool"
     swap
     app_global_put
-
-deposit_after_if_else@15:
-    // smart_contracts/fair_split/contract.py:51
-    // return String("Deposit recorded and points updated!")
-    pushbytes "Deposit recorded and points updated!"
-
-deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16:
-    // smart_contracts/fair_split/contract.py:26
-    // @abimethod()
-    dup
-    len
-    itob
-    extract 6 2
+    // smart_contracts/fair_split/contract.py:132
+    // if Txn.sender == self.spouse_1:
+    txn Sender
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    ==
+    bz deposit_else_body@7
+    // smart_contracts/fair_split/contract.py:133
+    // self.spouse_1_points += points_earned
+    intc_0 // 0
+    bytec_3 // "spouse_1_points"
+    app_global_get_ex
+    assert // check self.spouse_1_points exists
+    dig 2
+    +
+    bytec_3 // "spouse_1_points"
     swap
-    concat
-    bytec 4 // 0x151f7c75
+    app_global_put
+    // smart_contracts/fair_split/contract.py:134
+    // return arc4.String("Spouse 1 deposit success")
+    pushbytes 0x001853706f7573652031206465706f7369742073756363657373
+
+deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@8:
+    // smart_contracts/fair_split/contract.py:102
+    // @arc4.abimethod
+    bytec 12 // 0x151f7c75
     swap
     concat
     log
     intc_1 // 1
     return
+
+deposit_else_body@7:
+    // smart_contracts/fair_split/contract.py:136
+    // self.spouse_2_points += points_earned
+    intc_0 // 0
+    bytec 4 // "spouse_2_points"
+    app_global_get_ex
+    assert // check self.spouse_2_points exists
+    dig 2
+    +
+    bytec 4 // "spouse_2_points"
+    swap
+    app_global_put
+    // smart_contracts/fair_split/contract.py:137
+    // return arc4.String("Spouse 2 deposit success")
+    pushbytes 0x001853706f7573652032206465706f7369742073756363657373
+    // smart_contracts/fair_split/contract.py:102
+    // @arc4.abimethod
+    b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@8
 
 deposit_else_body@11:
-    // smart_contracts/fair_split/contract.py:46
-    // elif sender == self.partner2:
-    intc_0 // 0
-    bytec_3 // "partner2"
-    app_global_get_ex
-    assert // check self.partner2 exists
+    // smart_contracts/fair_split/contract.py:153
+    // elif amount_algo < UInt64(10):
     dig 3
-    ==
+    pushint 10 // 10
+    <
     bz deposit_else_body@13
-    // smart_contracts/fair_split/contract.py:47
-    // self.p2_points = self.p2_points + points_earned
-    intc_0 // 0
-    bytec_1 // "p2_points"
-    app_global_get_ex
-    assert // check self.p2_points exists
-    dig 1
-    +
-    bytec_1 // "p2_points"
-    swap
-    app_global_put
-    b deposit_after_if_else@15
+    // smart_contracts/fair_split/contract.py:154
+    // return UInt64(75)
+    pushint 75 // 75
+    bury 2
+    // smart_contracts/fair_split/contract.py:128
+    // points_earned = self._calculate_points(amount_algo)
+    b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14
 
 deposit_else_body@13:
-    // smart_contracts/fair_split/contract.py:49
-    // return String("Sender not a registered partner!")
-    pushbytes "Sender not a registered partner!"
-    // smart_contracts/fair_split/contract.py:26
-    // @abimethod()
-    b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit.deposit@16
+    // smart_contracts/fair_split/contract.py:156
+    // return (amount_algo // UInt64(20)) * UInt64(100)
+    dig 3
+    pushint 20 // 20
+    /
+    pushint 100 // 100
+    *
+    bury 2
+    // smart_contracts/fair_split/contract.py:128
+    // points_earned = self._calculate_points(amount_algo)
+    b deposit_after_inlined_smart_contracts.fair_split.contract.FairSplit._calculate_points@14
 
-deposit_else_body@3:
-    // smart_contracts/fair_split/contract.py:39
-    // elif amount_algo >= UInt64(5):
-    dig 1
-    pushint 5 // 5
-    >=
-    bz deposit_else_body@5
-    // smart_contracts/fair_split/contract.py:40
-    // points_earned = UInt64(1)
-    intc_1 // 1
-    bury 1
-    b deposit_after_if_else@9
-
-deposit_else_body@5:
-    // smart_contracts/fair_split/contract.py:41
-    // elif amount_algo > UInt64(0):
-    dig 1
-    bz deposit_after_if_else@9
-    // smart_contracts/fair_split/contract.py:42
-    // points_earned = UInt64(1)
-    intc_1 // 1
-    bury 1
-    b deposit_after_if_else@9
-
-
-// smart_contracts.fair_split.contract.FairSplit.calculate[routing]() -> void:
-calculate:
-    // smart_contracts/fair_split/contract.py:58
-    // total_balance = Global.current_application_address.balance
-    global CurrentApplicationAddress
-    acct_params_get AcctBalance
-    assert // account funded
-    // smart_contracts/fair_split/contract.py:61
-    // total_points = self.p1_points + self.p2_points
+deposit_bool_false@4:
     intc_0 // 0
-    bytec_0 // "p1_points"
-    app_global_get_ex
-    assert // check self.p1_points exists
-    intc_0 // 0
-    bytec_1 // "p2_points"
-    app_global_get_ex
-    assert // check self.p2_points exists
-    +
-    dup
-    // smart_contracts/fair_split/contract.py:62
-    // if total_points == UInt64(0):
-    bnz calculate_after_if_else@3
-    // smart_contracts/fair_split/contract.py:63
-    // return String("No deposits recorded yet.")
-    pushbytes "No deposits recorded yet."
+    b deposit_bool_merge@5
 
-calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6:
-    // smart_contracts/fair_split/contract.py:53
-    // @abimethod()
-    dup
-    len
-    itob
-    extract 6 2
-    swap
-    concat
-    bytec 4 // 0x151f7c75
+
+// smart_contracts.fair_split.contract.FairSplit.request_withdrawal[routing]() -> void:
+request_withdrawal:
+    // smart_contracts/fair_split/contract.py:169
+    // assert self.contract_status == arc4.String("active"), "Contract must be active"
+    intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    bytec 11 // 0x0006616374697665
+    ==
+    assert // Contract must be active
+    // smart_contracts/fair_split/contract.py:171
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouse can request withdrawal"
+    txn Sender
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    ==
+    bnz request_withdrawal_bool_true@3
+    txn Sender
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    ==
+    bz request_withdrawal_bool_false@4
+
+request_withdrawal_bool_true@3:
+    intc_1 // 1
+
+request_withdrawal_bool_merge@5:
+    // smart_contracts/fair_split/contract.py:171
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouse can request withdrawal"
+    assert // Only spouse can request withdrawal
+    // smart_contracts/fair_split/contract.py:173
+    // self.contract_status = arc4.String("pending_withdrawal")
+    bytec_0 // "contract_status"
+    bytec 14 // 0x001270656e64696e675f7769746864726177616c
+    app_global_put
+    // smart_contracts/fair_split/contract.py:175
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 6 // "spouse_1_approved"
+    bytec 7 // 0x00
+    app_global_put
+    // smart_contracts/fair_split/contract.py:176
+    // self.spouse_2_approved = arc4.Bool(False)
+    bytec 8 // "spouse_2_approved"
+    // smart_contracts/fair_split/contract.py:175
+    // self.spouse_1_approved = arc4.Bool(False)
+    bytec 7 // 0x00
+    // smart_contracts/fair_split/contract.py:176
+    // self.spouse_2_approved = arc4.Bool(False)
+    app_global_put
+    // smart_contracts/fair_split/contract.py:159
+    // @arc4.abimethod
+    pushbytes 0x151f7c7500305769746864726177616c207265717565737465642e20426f74682073706f75736573206d75737420617070726f76652e
+    log
+    intc_1 // 1
+    return
+
+request_withdrawal_bool_false@4:
+    intc_0 // 0
+    b request_withdrawal_bool_merge@5
+
+
+// smart_contracts.fair_split.contract.FairSplit.approve_withdrawal[routing]() -> void:
+approve_withdrawal:
+    // smart_contracts/fair_split/contract.py:190
+    // assert self.contract_status == arc4.String("pending_withdrawal"), "No withdrawal pending"
+    intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    bytec 14 // 0x001270656e64696e675f7769746864726177616c
+    ==
+    assert // No withdrawal pending
+    // smart_contracts/fair_split/contract.py:192
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouses can approve"
+    txn Sender
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    ==
+    bnz approve_withdrawal_bool_true@3
+    txn Sender
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    ==
+    bz approve_withdrawal_bool_false@4
+
+approve_withdrawal_bool_true@3:
+    intc_1 // 1
+
+approve_withdrawal_bool_merge@5:
+    // smart_contracts/fair_split/contract.py:192
+    // assert (Txn.sender == self.spouse_1) or (Txn.sender == self.spouse_2), "Only spouses can approve"
+    assert // Only spouses can approve
+    // smart_contracts/fair_split/contract.py:194
+    // if Txn.sender == self.spouse_1:
+    txn Sender
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    ==
+    bz approve_withdrawal_else_body@9
+    // smart_contracts/fair_split/contract.py:195
+    // assert not self.spouse_1_approved.native, "Spouse 1 already approved"
+    intc_0 // 0
+    bytec 6 // "spouse_1_approved"
+    app_global_get_ex
+    assert // check self.spouse_1_approved exists
+    intc_0 // 0
+    getbit
+    !
+    assert // Spouse 1 already approved
+    // smart_contracts/fair_split/contract.py:196
+    // self.spouse_1_approved = arc4.Bool(True)
+    bytec 6 // "spouse_1_approved"
+    pushbytes 0x80
+    app_global_put
+    // smart_contracts/fair_split/contract.py:198
+    // if self.spouse_2_approved.native:
+    intc_0 // 0
+    bytec 8 // "spouse_2_approved"
+    app_global_get_ex
+    assert // check self.spouse_2_approved exists
+    intc_0 // 0
+    getbit
+    bz approve_withdrawal_else_body@8
+    // smart_contracts/fair_split/contract.py:199
+    // self._distribute_funds()
+    callsub _distribute_funds
+    // smart_contracts/fair_split/contract.py:200
+    // return arc4.String("Both approved. Funds distributed.")
+    bytec 15 // 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e
+
+approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12:
+    // smart_contracts/fair_split/contract.py:180
+    // @arc4.abimethod
+    bytec 12 // 0x151f7c75
     swap
     concat
     log
     intc_1 // 1
     return
 
-calculate_after_if_else@3:
-    // smart_contracts/fair_split/contract.py:65
-    // p1_share = (total_balance * self.p1_points) // total_points
+approve_withdrawal_else_body@8:
+    // smart_contracts/fair_split/contract.py:202
+    // return arc4.String("Spouse 1 approved. Waiting for spouse 2.")
+    pushbytes 0x002853706f757365203120617070726f7665642e2057616974696e6720666f722073706f75736520322e
+    // smart_contracts/fair_split/contract.py:180
+    // @arc4.abimethod
+    b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12
+
+approve_withdrawal_else_body@9:
+    // smart_contracts/fair_split/contract.py:204
+    // assert not self.spouse_2_approved.native, "Spouse 2 already approved"
     intc_0 // 0
-    bytec_0 // "p1_points"
+    bytec 8 // "spouse_2_approved"
     app_global_get_ex
-    assert // check self.p1_points exists
-    dig 2
-    dup
+    assert // check self.spouse_2_approved exists
+    intc_0 // 0
+    getbit
+    !
+    assert // Spouse 2 already approved
+    // smart_contracts/fair_split/contract.py:205
+    // self.spouse_2_approved = arc4.Bool(True)
+    bytec 8 // "spouse_2_approved"
+    pushbytes 0x80
+    app_global_put
+    // smart_contracts/fair_split/contract.py:207
+    // if self.spouse_1_approved.native:
+    intc_0 // 0
+    bytec 6 // "spouse_1_approved"
+    app_global_get_ex
+    assert // check self.spouse_1_approved exists
+    intc_0 // 0
+    getbit
+    bz approve_withdrawal_else_body@11
+    // smart_contracts/fair_split/contract.py:208
+    // self._distribute_funds()
+    callsub _distribute_funds
+    // smart_contracts/fair_split/contract.py:209
+    // return arc4.String("Both approved. Funds distributed.")
+    bytec 15 // 0x0021426f746820617070726f7665642e2046756e64732064697374726962757465642e
+    // smart_contracts/fair_split/contract.py:180
+    // @arc4.abimethod
+    b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12
+
+approve_withdrawal_else_body@11:
+    // smart_contracts/fair_split/contract.py:211
+    // return arc4.String("Spouse 2 approved. Waiting for spouse 1.")
+    pushbytes 0x002853706f757365203220617070726f7665642e2057616974696e6720666f722073706f75736520312e
+    // smart_contracts/fair_split/contract.py:180
+    // @arc4.abimethod
+    b approve_withdrawal_after_inlined_smart_contracts.fair_split.contract.FairSplit.approve_withdrawal@12
+
+approve_withdrawal_bool_false@4:
+    intc_0 // 0
+    b approve_withdrawal_bool_merge@5
+
+
+// smart_contracts.fair_split.contract.FairSplit.get_contract_info[routing]() -> void:
+get_contract_info:
+    // smart_contracts/fair_split/contract.py:268
+    // self.contract_status,
+    intc_0 // 0
+    bytec_0 // "contract_status"
+    app_global_get_ex
+    assert // check self.contract_status exists
+    // smart_contracts/fair_split/contract.py:269
+    // arc4.Address(self.spouse_1),
+    intc_0 // 0
+    bytec_1 // "spouse_1"
+    app_global_get_ex
+    assert // check self.spouse_1 exists
+    // smart_contracts/fair_split/contract.py:270
+    // arc4.Address(self.spouse_2),
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    // smart_contracts/fair_split/contract.py:271
+    // arc4.UInt64(self.spouse_1_points),
+    intc_0 // 0
+    bytec_3 // "spouse_1_points"
+    app_global_get_ex
+    assert // check self.spouse_1_points exists
+    itob
+    // smart_contracts/fair_split/contract.py:272
+    // arc4.UInt64(self.spouse_2_points),
+    intc_0 // 0
+    bytec 4 // "spouse_2_points"
+    app_global_get_ex
+    assert // check self.spouse_2_points exists
+    itob
+    // smart_contracts/fair_split/contract.py:273
+    // arc4.UInt64(self.total_pool)
+    intc_0 // 0
+    bytec 5 // "total_pool"
+    app_global_get_ex
+    assert // check self.total_pool exists
+    itob
+    // smart_contracts/fair_split/contract.py:258
+    // @arc4.abimethod
+    pushbytes 0x005a
+    uncover 5
+    concat
+    uncover 4
+    concat
+    uncover 3
+    concat
     uncover 2
+    concat
+    swap
+    concat
+    swap
+    concat
+    bytec 12 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.fair_split.contract.FairSplit._distribute_funds() -> void:
+_distribute_funds:
+    // smart_contracts/fair_split/contract.py:213-214
+    // @subroutine
+    // def _distribute_funds(self) -> None:
+    proto 0 0
+    // smart_contracts/fair_split/contract.py:220
+    // total_points = self.spouse_1_points + self.spouse_2_points
+    intc_0 // 0
+    bytec_3 // "spouse_1_points"
+    app_global_get_ex
+    assert // check self.spouse_1_points exists
+    intc_0 // 0
+    bytec 4 // "spouse_2_points"
+    app_global_get_ex
+    assert // check self.spouse_2_points exists
+    dig 1
+    +
+    // smart_contracts/fair_split/contract.py:222
+    // assert total_points > UInt64(0), "No points to distribute"
+    dup
+    assert // No points to distribute
+    // smart_contracts/fair_split/contract.py:224
+    // platform_fee = (self.total_pool * self.platform_fee_basis_points) // UInt64(10_000)
+    intc_0 // 0
+    bytec 5 // "total_pool"
+    app_global_get_ex
+    assert // check self.total_pool exists
+    intc_0 // 0
+    bytec 13 // "platform_fee_basis_points"
+    app_global_get_ex
+    assert // check self.platform_fee_basis_points exists
+    dig 1
     *
-    dig 2
+    pushint 10000 // 10000
+    /
+    dup
+    cover 4
+    // smart_contracts/fair_split/contract.py:226
+    // distributable_amount = self.total_pool - platform_fee
+    swap
+    dig 1
+    -
+    // smart_contracts/fair_split/contract.py:228
+    // spouse_1_share = (distributable_amount * self.spouse_1_points) // total_points
+    dup
+    uncover 4
+    *
+    uncover 3
+    /
     dup
     cover 3
-    /
-    // smart_contracts/fair_split/contract.py:66
-    // p2_share = (total_balance * self.p2_points) // total_points
-    intc_0 // 0
-    bytec_1 // "p2_points"
-    app_global_get_ex
-    assert // check self.p2_points exists
-    uncover 2
-    *
-    uncover 2
-    /
-    // smart_contracts/fair_split/contract.py:68-73
-    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // smart_contracts/fair_split/contract.py:229
+    // spouse_2_share = distributable_amount - spouse_1_share
+    -
+    swap
+    // smart_contracts/fair_split/contract.py:231
+    // if platform_fee > UInt64(0):
+    bz _distribute_funds_after_if_else@3
+    // smart_contracts/fair_split/contract.py:232-236
     // itxn.Payment(
-    //     receiver=self.partner1,
-    //     amount=p1_share,
-    //     fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    //     receiver=self.platform_address,
+    //     amount=platform_fee,
+    //     fee=UInt64(0)
     // ).submit()
     itxn_begin
-    // smart_contracts/fair_split/contract.py:70
-    // receiver=self.partner1,
+    // smart_contracts/fair_split/contract.py:233
+    // receiver=self.platform_address,
     intc_0 // 0
-    bytec_2 // "partner1"
+    bytec 9 // "platform_address"
     app_global_get_ex
-    assert // check self.partner1 exists
-    uncover 2
+    assert // check self.platform_address exists
+    frame_dig 0
     itxn_field Amount
     itxn_field Receiver
-    // smart_contracts/fair_split/contract.py:68-69
-    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // smart_contracts/fair_split/contract.py:232
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
-    // smart_contracts/fair_split/contract.py:72
-    // fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    // smart_contracts/fair_split/contract.py:235
+    // fee=UInt64(0)
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/fair_split/contract.py:68-73
-    // # ✅ Perbaikan: gunakan itxn.Payment (huruf kapital P)
+    // smart_contracts/fair_split/contract.py:232-236
     // itxn.Payment(
-    //     receiver=self.partner1,
-    //     amount=p1_share,
-    //     fee=UInt64(0),  # gunakan UInt64(0) untuk inner transaction
+    //     receiver=self.platform_address,
+    //     amount=platform_fee,
+    //     fee=UInt64(0)
     // ).submit()
     itxn_submit
-    // smart_contracts/fair_split/contract.py:75-79
+
+_distribute_funds_after_if_else@3:
+    // smart_contracts/fair_split/contract.py:238
+    // if spouse_1_share > UInt64(0):
+    frame_dig 1
+    bz _distribute_funds_after_if_else@6
+    // smart_contracts/fair_split/contract.py:239-243
     // itxn.Payment(
-    //     receiver=self.partner2,
-    //     amount=p2_share,
+    //     receiver=self.spouse_1,
+    //     amount=spouse_1_share,
     //     fee=UInt64(0),
     // ).submit()
     itxn_begin
-    // smart_contracts/fair_split/contract.py:76
-    // receiver=self.partner2,
+    // smart_contracts/fair_split/contract.py:240
+    // receiver=self.spouse_1,
     intc_0 // 0
-    bytec_3 // "partner2"
+    bytec_1 // "spouse_1"
     app_global_get_ex
-    assert // check self.partner2 exists
-    itxn_field Receiver
+    assert // check self.spouse_1 exists
+    frame_dig 1
     itxn_field Amount
-    // smart_contracts/fair_split/contract.py:75
+    itxn_field Receiver
+    // smart_contracts/fair_split/contract.py:239
     // itxn.Payment(
     intc_1 // pay
     itxn_field TypeEnum
-    // smart_contracts/fair_split/contract.py:78
+    // smart_contracts/fair_split/contract.py:242
     // fee=UInt64(0),
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/fair_split/contract.py:75-79
+    // smart_contracts/fair_split/contract.py:239-243
     // itxn.Payment(
-    //     receiver=self.partner2,
-    //     amount=p2_share,
+    //     receiver=self.spouse_1,
+    //     amount=spouse_1_share,
     //     fee=UInt64(0),
     // ).submit()
     itxn_submit
-    // smart_contracts/fair_split/contract.py:81
-    // return String("Split complete.")
-    pushbytes "Split complete."
-    // smart_contracts/fair_split/contract.py:53
-    // @abimethod()
-    b calculate_after_inlined_smart_contracts.fair_split.contract.FairSplit.calculate@6
+
+_distribute_funds_after_if_else@6:
+    // smart_contracts/fair_split/contract.py:245
+    // if spouse_2_share > UInt64(0):
+    frame_dig 2
+    bz _distribute_funds_after_if_else@9
+    // smart_contracts/fair_split/contract.py:246-250
+    // itxn.Payment(
+    //     receiver=self.spouse_2,
+    //     amount=spouse_2_share,
+    //     fee=UInt64(0),
+    // ).submit()
+    itxn_begin
+    // smart_contracts/fair_split/contract.py:247
+    // receiver=self.spouse_2,
+    intc_0 // 0
+    bytec_2 // "spouse_2"
+    app_global_get_ex
+    assert // check self.spouse_2 exists
+    frame_dig 2
+    itxn_field Amount
+    itxn_field Receiver
+    // smart_contracts/fair_split/contract.py:246
+    // itxn.Payment(
+    intc_1 // pay
+    itxn_field TypeEnum
+    // smart_contracts/fair_split/contract.py:249
+    // fee=UInt64(0),
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/fair_split/contract.py:246-250
+    // itxn.Payment(
+    //     receiver=self.spouse_2,
+    //     amount=spouse_2_share,
+    //     fee=UInt64(0),
+    // ).submit()
+    itxn_submit
+
+_distribute_funds_after_if_else@9:
+    // smart_contracts/fair_split/contract.py:252
+    // self.contract_status = arc4.String("completed")
+    bytec_0 // "contract_status"
+    pushbytes 0x0009636f6d706c65746564
+    app_global_put
+    // smart_contracts/fair_split/contract.py:254
+    // self.total_pool = UInt64(0)
+    bytec 5 // "total_pool"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:255
+    // self.spouse_1_points = UInt64(0)
+    bytec_3 // "spouse_1_points"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/fair_split/contract.py:256
+    // self.spouse_2_points = UInt64(0)
+    bytec 4 // "spouse_2_points"
+    intc_0 // 0
+    app_global_put
+    retsub
