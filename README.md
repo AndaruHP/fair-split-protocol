@@ -4,12 +4,6 @@
   <img width="400" src="/assets/fair-split.png">
 </p>
 
-> _A decentralized marriage asset management protocol on Algorand blockchain_
-
-[![Algorand](https://img.shields.io/badge/Blockchain-Algorand-000000?style=flat&logo=algorand)](https://algorand.com)
-[![Smart Contract](https://img.shields.io/badge/Smart%20Contract-AlgoPy-blue)](https://github.com/algorandfoundation/puya)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## 🌟 Overview
 
 **FairSplit** is a transparent and fair asset management smart contract designed for couples who want to pool their financial resources while maintaining clear records of individual contributions. Built on the Algorand blockchain, it ensures immutability, transparency, and automated fair distribution.
