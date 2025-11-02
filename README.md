@@ -2,10 +2,6 @@
 
 > *A decentralized marriage asset management protocol on Algorand blockchain*
 
-[![Algorand](https://img.shields.io/badge/Blockchain-Algorand-000000?style=flat&logo=algorand)](https://algorand.com)
-[![Smart Contract](https://img.shields.io/badge/Smart%20Contract-AlgoPy-blue)](https://github.com/algorandfoundation/puya)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 ## 🌟 Overview
 
 **FairSplit** is a transparent and fair asset management smart contract designed for couples who want to pool their financial resources while maintaining clear records of individual contributions. Built on the Algorand blockchain, it ensures immutability, transparency, and automated fair distribution.
@@ -82,7 +78,6 @@ stateDiagram-v2
     [*] --> pending_invite: create_contract()
     pending_invite --> active: accept_invite()
     active --> pending_withdrawal: request_withdrawal()
-    pending_withdrawal --> active: reject_withdrawal()
     pending_withdrawal --> completed: approve_withdrawal() (both)
     completed --> [*]
 ```
@@ -145,14 +140,6 @@ request_withdrawal()
 approve_withdrawal()
 # First approval: "Spouse X approved. Waiting for spouse Y."
 # Second approval: "Both approved. Funds distributed."
-```
-
-### Rejecting Withdrawal
-
-```python
-# Either spouse can reject and return to active state
-reject_withdrawal()
-# Returns: "Withdrawal rejected. Contract is active again."
 ```
 
 ### Checking Contract Info
@@ -235,24 +222,6 @@ get_contract_info()
 
 ---
 
-## 🧪 Testing
-
-Run the test suite to verify contract functionality:
-
-```bash
-pytest smart_contracts/tests/
-```
-
-Test coverage includes:
-- Contract creation and initialization
-- Invitation system
-- Deposit mechanics and point calculation
-- Withdrawal approval flow
-- Fund distribution accuracy
-- Edge cases and error handling
-
----
-
 ## 📊 Example Calculation
 
 ### Initial State
@@ -291,47 +260,6 @@ Let me correct the example:
 3. **Platform Fee**: 6.5% is deducted from every withdrawal
 4. **Points Are Permanent**: Points cannot be reduced or transferred
 5. **One-Time Use**: After completion, contract cannot be reactivated
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit issues and pull requests.
-
-### Development Setup
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/fair_split.git
-
-# Install dependencies
-algokit bootstrap all
-
-# Run tests
-pytest
-```
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🔗 Resources
-
-- [Algorand Developer Portal](https://developer.algorand.org/)
-- [AlgoPy Documentation](https://algorandfoundation.github.io/puya/)
-- [Algorand Testnet Faucet](https://dispenser.testnet.aws.algodev.network/)
-
----
-
-## 💬 Support & Contact
-
-For questions, issues, or suggestions:
-- Open an issue on GitHub
-- Join our community Discord
-- Email: support@fairsplit.protocol
 
 ---
 
